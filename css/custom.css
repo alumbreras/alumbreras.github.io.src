@@ -1,0 +1,57 @@
+code {
+    color: black;
+}
+
+pre code {
+    color: black;
+}
+
+/*Alignment tweaks for social sharing buttons*/
+/* This gets Google to fall into place */
+.social {
+    font-size: 1px;
+}
+ 
+/* This gets Facebook to fall into place */
+.social .fb-like {
+    font-size: 1px;
+    display: inline-block;
+}
+ 
+/* Set an optional width for your button wrappers */
+.social span {
+    display: inline-block;
+    width: 110px;
+}
+ 
+/* Adjust the widths individually if you like */
+.social .google {
+    width: 65px;
+}
+
+.social .facebook {
+    width: 85px;
+}
+
+.social .twitter {
+    width: 95px;
+}
+
+.col-md-10 {
+    margin-left: 17%;
+}
+
+/* 
+ Adjust headers for posts titles and sections.
+ Title: h3
+ ###: h3
+ ####: h4 (for sections)
+*/
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 30px;
+}

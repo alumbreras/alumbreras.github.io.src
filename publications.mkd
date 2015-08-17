@@ -1,0 +1,19 @@
+---
+title: Publications
+---
+
+#### Publications
+
+Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013), [Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf),   MARAMI 2013 
+
+Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013), [An insight into the Analysis of Roles in IMDb.](http://complexity-in-social-systems.u-cergy.fr/?page_id=326), Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013. [[abstract](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1.pdf)] [[presentation](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1_slides.pdf)]
+
+Lumbreras A., Gavaldà R. (2012), [Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf), In Social Knowledge Discovery and Utilization Workshop 2012 [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
+
+Lumbreras A. (2012), [Towards Trust-Aware Recommender Systems. Masther’s Thesis](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf) [[slides](http://www.slideshare.net/anarcaster/towards-trustaware-recommender-systems)] [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
+
+#### Talks
+
+Mineria de Datos para hacktivismo. #jornadasAnon 2012
+
+Toret J., Marin O., Lumbreras A., Aragón P., Linares J. y Aguilera M. (2012) [Gestación del 15m, dispositvos y acontecimiento aumentado, sistema red, emergencia y autoorganización. Evolución del sistema red.](http://civilsc.net/node/22) Comunicación y Sociedad Civil: Cultura digital, redes y política distribuida en la era de Internet, 2012
