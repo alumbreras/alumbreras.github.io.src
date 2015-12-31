@@ -1,0 +1,44 @@
+---
+title: 100000 asambleas de la CUP
+tags: monte-carlo
+---
+
+¿Cuál era la probabilidad de que la ultima votación de la asamblea de la CUP acabara en empate?
+La intución nos dice que algunos resultados extremos como 0 a favor y 3030 en contra es menos probable que 1000 a favor y 2030 en contra. Es decir, los valores menos extremos parecen más probables y si tuviéramos que acertar el número exacto la mayoría de personas apostaríamos por la franja más central, más sabiendo que el debate estaba muy ajustado.
+
+Es decir, intuitivamente vemos que hay resultados más probables que otros. Matemáticamente decimos que no es una distribución uniforme (probabilidad idéntica de 1/3030, un 0.033%, a todos los resultados).  
+
+Pero entonces, ¿cuál es el resultado más probable? Pues ante un debate donde las dos opciones están tan ajustadas, el resultado más probable es el empate.
+
+Aunque se puede calcular con una simple fórmula, aquí voy a hacer el estadista bruto (o vago), es decir simular muchas asambleas y ver lo que pasa.
+
+```{r}
+# N cupaires
+N <- 3030
+
+# con un debate muy ajustado
+probabilitat_si <- 0.5
+probabilitat_no <- 1 - probabilitat_si
+
+# Simula muchas, muchas asambleas
+M <- 100000
+asambleas <- data.frame(matrix(0,M,2))
+names(asambleas) <- c("sies", "noes")
+for (i in 1:M){
+  votos <- sample(c("si", "no"), N, replace=TRUE, prob=c(probabilitat_si,probabilitat_no))
+  sies <- sum(votos=="si")
+  noes <- sum(votos=="no")
+  asambleas[i,] <- c(sies, noes)
+}
+hist(asambleas$sies, breaks = 100)
+
+# probabilidad de empate
+empates <- sum(asambleas$sies==1515)
+probabilidad_empate <- empates/M
+cat("Probabilidad de empate:", probabilidad_empate*100)
+```
+
+
+Resulta que lo que tenemos es una distribución normal (la ley de los grandes números) donde el número más frecuente es el 1515. Sí, es poco probable, *pero es el más probable*.
+
+Si nuestra hipótesis fuera que el debate está menos ajustado y quem por ejemplo, cada cupaire tiene una probabilidad de un 40% de votar no, entonces tendríamos una Gaussiana centrada en 1212 ($3030*0.4$), pero el 1515 seguiría siendo uno de los valores más probables.
