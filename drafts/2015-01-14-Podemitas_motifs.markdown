@@ -43,13 +43,13 @@ To reduce our space of possible neighborhoods we will introduce the concept of *
 With this in mind, we count the *temporal neighborhoods* of every user's posts. For a spacial neighborhood of radius $1$ and a temporal neighborhood of radius $4$ we obtain:
 
 <p align="center">
-<img src="../images/2016-01-15-motifs_1_4.png" width="300px">
+<img src="../images/2016-01-15-motifs_1_4.png" width="600px">
 </p>
 
 We can play the the spacial and the temporal radius. Let's see what happens if we set both radius to $4$. And to make it more fun (and more fine-grained), we will also put a color on the root post:
 
 <p align="center">
-<img src="../images/2016-01-15-motifs_4_4.png" width="300px">
+<img src="../images/2016-01-15-motifs_4_4.png" width="600px">
 </p>
 
 (**Question**: how come the single node is the most frequent? How is it possible to have no neighbors at all? Or what might be wrong?)
