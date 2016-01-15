@@ -40,13 +40,13 @@ Imagine we take one post $p$ as well as it neighborhood of posts and we create a
 <!---OLD: if the original neighborhood has more than $M$ vertices we will keep only the $M$ that are closest in time to the post $p$.-->
 To reduce our space of possible neighborhoods we will introduce the concept of *temporal neighborhood*: if post $p was written at time $t$, the temporal neighborhood (of radius $R$) of a $p$ is the set of $R$ posts in its *spacial neighborhood* that were written in a time closest to $t$ (and where closeness is computed as $|t_i-t|$) and where the posts in the shortest path from each neighbour and $p$ belong also to the *temporal neighborhood*.
 
-With this in mind, we count the *temporal neighborhoods* of every user's posts. For a spacial neighborhood of radius $1$ and a temporal neighborhood of radius $4$ we obtain:
+With this in mind, we count the *temporal neighborhoods* of every user's posts. To make it funnier (and more fine-grained), we will also put a color (white) on the root post. For a spacial neighborhood of radius $1$ and a temporal neighborhood of radius $4$ we obtain:
 
 <p align="center">
 <img src="../images/2016-01-15-motifs_1_4.png" width="600px">
 </p>
 
-We can play the the spacial and the temporal radius. Let's see what happens if we set both radius to $4$. And to make it more fun (and more fine-grained), we will also put a color on the root post:
+We can play the the spacial and the temporal radius. Let's see what happens if we set both radius to $4$:
 
 <p align="center">
 <img src="../images/2016-01-15-motifs_4_4.png" width="600px">
