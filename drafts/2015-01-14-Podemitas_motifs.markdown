@@ -33,8 +33,8 @@ A very natural to represent a conversation thread is a tree where vertices repre
 Imagine we take one post $p$ as well as it neighborhood of posts and we create a graph from that. I will call this subgraph a `motif`. I would like to count, for every user, the different motifs around their posts given a neighborhood radius $R$. Unfortunatelly this concept of neighborhood based on distances has an infinite number of possible graphs. Both trees in the below image represent two possible neighborhoods of the red vertex (the white vertex represents the root post of the thread):
 
 <p align="center">
-<img src="../images/2015-01-15-large_neighborhood.png.png" width="300px">
-<img src="../images/2015-01-15-short_neighborhood.png.png" width="300px">
+<img src="../images/2015-01-15-large_neighborhood.png" width="300px">
+<img src="../images/2015-01-15-short_neighborhood.png" width="300px">
 </p>
 
 <!---OLD: if the original neighborhood has more than $M$ vertices we will keep only the $M$ that are closest in time to the post $p$.-->
