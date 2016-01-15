@@ -38,7 +38,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
-        --building posts and post-related pages
+    --building posts and post-related pages
     --for some reason, moving it this late gets the links right while putting it first doesn't
     tags <- buildTags "posts/*" $ fromCapture "tags/*.html"
 
@@ -56,6 +56,32 @@ main = hakyll $ do
             let archiveCtx =
                     field "posts" (const $ postList recentFirst)    `mappend`
                     constField "title" "Posts"                      `mappend`
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/posts.html" archiveCtx
+                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= relativizeUrls
+
+
+    --building drafs page
+    tags <- buildTags "posts/*" $ fromCapture "tags/*.html"
+       --prepare drafts to put them in drafts file-- 
+    match "drafts/*" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler'
+            >>= loadAndApplyTemplate "templates/post.html" (taggedPostCtx tags)
+            >>= saveSnapshot "draftcontent"
+            >>= loadAndApplyTemplate "templates/default-post.html" postCtx
+            >>= relativizeUrls
+       
+       --page listing all drafts--
+    create ["drafts.html"] $ do
+        route idRoute
+        compile $ do
+            let archiveCtx =
+                    field "posts" (const $ draftList recentFirst)    `mappend`
+                    constField "title" "Posts"                       `mappend`
                     defaultContext
 
             makeItem ""
@@ -127,7 +153,7 @@ extensions = Set.fromList [Ext_inline_notes, Ext_tex_math_dollars, Ext_latex_mac
 feedConfig :: FeedConfiguration
 feedConfig = FeedConfiguration {
         feedTitle       = "albertolumbreras.net",
-        feedDescription = "Machine Learning, Social Network Analysis",
+        feedDescription = "Machine Learning and Social Network Analysis",
         feedAuthorName  = "Alberto Lumbreras",
         feedAuthorEmail = "alberto.lumbreras@gmail.com",
         feedRoot        = "http://www.albertolumbreras.net"
@@ -157,6 +183,13 @@ postCtx = dateField "date" "%B %e, %Y" `mappend` defaultContext
 postList :: ([Item String] -> Compiler [Item String]) -> Compiler String
 postList sortFilter = do
     posts   <- sortFilter =<< loadAll "posts/*"
+    itemTpl <- loadBody "templates/post-item.html"
+    list    <- applyTemplateList itemTpl postCtx posts
+    return list
+
+draftList :: ([Item String] -> Compiler [Item String]) -> Compiler String
+draftList sortFilter = do
+    posts   <- sortFilter =<< loadAll "drafts/*"
     itemTpl <- loadBody "templates/post-item.html"
     list    <- applyTemplateList itemTpl postCtx posts
     return list
