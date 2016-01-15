@@ -46,11 +46,12 @@ With this in mind, we count the *temporal neighborhoods* of every user's posts. 
 <img src="../images/2016-01-15-motifs_1_4.png" width="300px">
 </p>
 
-We can play the the spacial and the temporal radius. Let's see what happens if we set both radius to $4$:
+We can play the the spacial and the temporal radius. Let's see what happens if we set both radius to $4$. And to make it more fun (and more fine-grained), we will also put a color on the root post:
 
 <p align="center">
 <img src="../images/2016-01-15-motifs_4_4.png" width="300px">
 </p>
 
-(**Question**: how come the single node is the most frequent?)
+(**Question**: how come the single node is the most frequent? How is it possible to have no neighbors at all? Or what might be wrong?)
+
 The next week we will clusters users based on their tendance to have each of the neighborhoods.
