@@ -13,19 +13,19 @@ A very natural to represent a conversation thread is a tree where vertices repre
 
 
 <p align="center">
-<img src="../images/2015-01-15-tree1.png" width="200px">
-<img src="../images/2015-01-15-tree2.png" width="200px">
-<img src="../images/2015-01-15-tree3.png" width="200px">
+<img src="../images/2015-01-15-tree1.png" width="300px">
+<img src="../images/2015-01-15-tree2.png" width="300px">
+<img src="../images/2015-01-15-tree3.png" width="300px">
 </p>
 <p align="center">
-<img src="../images/2015-01-15-tree4.png" width="200px">
-<img src="../images/2015-01-15-tree5.png" width="200px">
-<img src="../images/2015-01-15-tree6.png" width="200px">
+<img src="../images/2015-01-15-tree4.png" width="300px">
+<img src="../images/2015-01-15-tree5.png" width="300px">
+<img src="../images/2015-01-15-tree6.png" width="300px">
 </p>
 <p align="center">
-<img src="../images/2015-01-15-tree7.png" width="200px">
-<img src="../images/2015-01-15-tree8.png" width="200px">
-<img src="../images/2015-01-15-tree9.png" width="200px">
+<img src="../images/2015-01-15-tree7.png" width="300px">
+<img src="../images/2015-01-15-tree8.png" width="300px">
+<img src="../images/2015-01-15-tree9.png" width="300px">
 </p>
 
 
