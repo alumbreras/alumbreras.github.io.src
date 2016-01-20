@@ -64,3 +64,4 @@ We will use a simple *k-means* to find the clusters. To decide the number of clu
 <p align="center">
 <img src="../images/2016-01-15-elbow.png" width="600px">
 </p>
+This plot suggests a $k$ between 3 and 5. I will choose 3 to keep thinks simple.
