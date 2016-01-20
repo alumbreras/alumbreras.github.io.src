@@ -72,10 +72,20 @@ This plot suggests a $k$ between 3 and 5. I will choose 5 to keep thinks simple.
 
 To see it more clearly, let's plot a PCA projection over the first two components:
 <p align="center">
-<img src="../images/2016-01-15-PCA.png" width="700px">
+<img src="../images/2016-01-15-PCA.png" width="800px">
 </p>
 
 ### Making sense of it
 
-Let us make a closer inspection on the characteristics of each group to understand what are these groups and to see whether the results make sense.
+Let us make a closer inspection on the characteristics of each group to understand what are these groups and to see whether the results make sense. Let's go take a look again at the PCA (with another library):
+<p align="center">
+<img src="../images/2016-01-15-PCA2.png" width="800px">
+</p>
 
+We detect the following roles:
+
+  * Spotters (pink): ignored people?
+  * Common Answerers (yellow): common people that tend to reply to the root.
+  * Chain Common Bifurcators (green): this people participates deeper in the discussion.
+
+(TODO: plot profile lines to complement the PCA view. Whiskers plots!!!)
