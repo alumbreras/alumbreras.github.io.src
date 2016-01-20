@@ -51,8 +51,9 @@ We can play the the spacial and the temporal radius. Let's see what happens if w
 <p align="center">
 <img src="../images/2016-01-15-motifs_4_4.png" width="600px">
 </p>
+where I named the neighborhoods to help the intuition.
 
-(**Question**: how come the single node is the most frequent? How is it possible to have no neighbors at all? Or what might be wrong?)
+(**Question**: how come *spot* is the most frequent? How is it possible to have no neighbors at all? Or what might be wrong?)
 
 #### Types of conversationalists
 
@@ -64,4 +65,17 @@ We will use a simple *k-means* to find the clusters. To decide the number of clu
 <p align="center">
 <img src="../images/2016-01-15-elbow.png" width="600px">
 </p>
-This plot suggests a $k$ between 3 and 5. I will choose 3 to keep thinks simple.
+This plot suggests a $k$ between 3 and 5. I will choose 5 to keep thinks simple. I run the k-means and then plot the scatter matrix of evert pair of variables, where colors correspond to the clusters.
+<p align="center">
+<img src="../images/2016-01-15-ggpairs.png" width="700px">
+</p>
+
+To see it more clearly, let's plot a PCA projection over the first two components:
+<p align="center">
+<img src="../images/2016-01-15-PCA.png" width="700px">
+</p>
+
+### Making sense of it
+
+Let us make a closer inspection on the characteristics of each group to understand what are these groups and to see whether the results make sense.
+
