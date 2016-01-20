@@ -54,4 +54,13 @@ We can play the the spacial and the temporal radius. Let's see what happens if w
 
 (**Question**: how come the single node is the most frequent? How is it possible to have no neighbors at all? Or what might be wrong?)
 
-The next week we will clusters users based on their tendance to have each of the neighborhoods.
+#### Types of conversationalists
+
+Given the neighborhoods in which each user participates, we will analyze whether there exists different types of users or all users look similar. Since  
+
+Since we want to make the analyse independent of the number of posts,  we will normalize each user feature vector so that features indicate the percentage of posts in this kind of neighborhood. Moreover, some neighborhoods are much more common than others due to the nature of the forums. Thus, we normalize and scale the features so that every feature has a global mean 0 and variance 1. The features represent now *z-scores*, that is, how many standard deviations is this user feature away from the mean.
+
+We will use a simple *k-means* to find the clusters. To decide the number of clusters, we run *k-means* for $k=2,...,10$ clusters and looked at the  Within-Cluster Sum of Squares.
+<p align="center">
+<img src="../images/2016-01-15-elbow.png" width="600px">
+</p>
