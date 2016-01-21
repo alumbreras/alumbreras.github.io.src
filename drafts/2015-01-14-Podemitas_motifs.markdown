@@ -99,3 +99,8 @@ Let's now formalize the detected groups:
 
 Once we assigned a role to every user, let's see what is the proportion of roles in every thread. We will 
 
+#### Do roles have an effect on thread length?
+
+<p align="center">
+<img src="../images/2016-01-15-whiskers.png" width="300">
+</p>
