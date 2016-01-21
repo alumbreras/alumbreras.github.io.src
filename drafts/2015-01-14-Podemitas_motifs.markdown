@@ -63,7 +63,7 @@ Since we want to make the analyse independent of the number of posts,  we will n
 
 We will use a simple *k-means* to find the clusters. To decide the number of clusters, we run *k-means* for $k=2,...,10$ clusters and looked at the  Within-Cluster Sum of Squares.
 <p align="center">
-<img src="../images/2016-01-15-elbow.png" width="600px">
+<img src="../images/2016-01-15-elbow2.png" width="600px">
 </p>
 This plot suggests a $k$ between 3 and 5. I will choose 5 to keep thinks simple. I run the k-means and then plot the scatter matrix of evert pair of variables, where colors correspond to the clusters.
 <p align="center">
@@ -87,10 +87,15 @@ Let us make a closer inspection on the characteristics of each group to understa
 </p>
 
 
-We detect the following roles:
+Let's now formalize the detected groups:
 
-  * Spotters (pink): ignored people?
-  * Common Answerers (yellow): common people that tend to reply to the root.
-  * Chain Common Bifurcators (green): this people participates deeper in the discussion.
+  * **Spotters (pink)**: this people seems to be ignore by their peers. A lot of them are probably newbies.
+  * **Common Answerers** (yellow): this people prefer to participate by answering to the root posts raised some interest (CA3 motif)
+  * **Chain Common Bifurcators** (green): this people participates deeper in the discussion.
+  * **Dynamizers** (blue) (High CCB CIA SA): they are seen at the begining of chains and in bifurcations, suggesting that they are people that know the community and that are not ignored by their peers.
+  * **Common People**: this group of people represents the average person. They do not stand out in any feature.
 
-(TODO: plot profile lines to complement the PCA view. Whiskers plots!!!)
+#### Which roles participate in which threads
+
+Once we assigned a role to every user, let's see what is the proportion of roles in every thread. We will 
+
