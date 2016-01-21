@@ -82,6 +82,11 @@ Let us make a closer inspection on the characteristics of each group to understa
 <img src="../images/2016-01-15-PCA2.png" width="800px">
 </p>
 
+<p align="center">
+<img src="../images/2016-01-15-whiskers.png" width="800px">
+</p>
+
+
 We detect the following roles:
 
   * Spotters (pink): ignored people?
