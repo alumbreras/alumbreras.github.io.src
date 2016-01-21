@@ -102,5 +102,5 @@ Once we assigned a role to every user, let's see what is the proportion of roles
 #### Do roles have an effect on thread length?
 
 <p align="center">
-<img src="../images/2016-01-15-cluster_vs_length.png" width="300">
+<img src="../images/2016-01-15-cluster_vs_length.png" width="600">
 </p>
