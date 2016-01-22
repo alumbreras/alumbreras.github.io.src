@@ -87,24 +87,25 @@ And finally let's visualize a the distribution of each cluster for every feature
 
 From the plots above, let's try to describe every grooup:
 
-#### Spotters (salient motif: *spot*)
+#### Spotters 
+Dark blue. Salient motif: *spot*	
+Spotters are seen isolated, without neighborhoods. This doesn't seem to have sense and needs more analysis.
 
-#### Answerers (salient motif: *CA3*)
+#### Answerers and bifurcators
+Green. Salient motif: *CA3* *SA*
+Answerers are seen replying to the main post along with other people (CA3) and sometimes getting even some reply (SA). But they have a special tendency to participate in bifurcations, which means deeper in the conversation.
 
-#### Bifurcators (salient motif: *CA3*)
-
-#### Catalyzers (salient motif: *CCB* *CIA* *SA*)
+#### Catalyzers 
+Pink. Salient motif: *CIA*
+Catalyzers are seen answering to the root and then being followed by a chain.
 
 #### Common People 
+Light blue. No salient motif.
+Common people do not stand out on any kind of neighborhood. Since they are among the active users (like all the analyzed users) they might not play any central role but they might be necessary for the health of the forum.
 
 #### Lurkers
+All users with less than ten posts in this dataset are considered as lurkers. No explicit role is assigned to them since we have not enough data.
 
-
-  * **Spotters (pink)**: this people seems to be ignore by their peers. A lot of them are probably newbies.
-  * **Common Answerers** (yellow): this people prefer to participate by answering to the root posts raised some interest (CA3 motif)
-  * **Chain Common Bifurcators** (green): this people participates deeper in the discussion.
-  * **Dynamizers** (blue) (High CCB CIA SA): they are seen at the begining of chains and in bifurcations, suggesting that they are people that know the community and that are not ignored by their peers.
-  * **Common People**: this group of people represents the average person. They do not stand out in any feature.
 
 #### Which roles participate in which threads
 
