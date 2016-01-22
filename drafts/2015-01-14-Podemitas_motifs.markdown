@@ -38,7 +38,7 @@ Imagine we take one post $p$ as well as it neighborhood of posts and we create a
 </p>
 
 <!---OLD: if the original neighborhood has more than $M$ vertices we will keep only the $M$ that are closest in time to the post $p$.-->
-To reduce our space of possible neighborhoods we will introduce the concept of *temporal neighborhood*: if post $p was written at time $t$, the temporal neighborhood (of radius $R$) of a $p$ is the set of $R$ posts in its *spacial neighborhood* that were written in a time closest to $t$ (and where closeness is computed as $|t_i-t|$) and where the posts in the shortest path from each neighbour and $p$ belong also to the *temporal neighborhood*.
+To reduce our space of possible neighborhoods we will introduce the concept of *temporal neighborhood*: if post $p$ was written at time $t$, the temporal neighborhood (of radius $R$) of a $p$ is the set of $R$ posts in its *spacial neighborhood* that were written in a time closest to $t$ (and where closeness is computed as $|t_i-t|$) and where the posts in the shortest path from each neighbour and $p$ belong also to the *temporal neighborhood*.
 
 With this in mind, we count the *temporal neighborhoods* of every user's posts. To make it funnier (and more fine-grained), we will also put a color (white) on the root post. For a spacial neighborhood of radius $1$ and a temporal neighborhood of radius $4$ we obtain:
 
@@ -55,39 +55,50 @@ where I named the neighborhoods to help the intuition.
 
 (**Question**: how come *spot* is the most frequent? How is it possible to have no neighbors at all? Or what might be wrong?)
 
-#### Types of conversationalists
+#### Clustering users with respect to their neighborhoods
 
-Given the neighborhoods in which each user participates, we will analyze whether there exists different types of users or all users look similar. Since  
+Given the neighborhoods in which each user participates, we will analyze whether there exists different types of users or all users look similar.  
 
-Since we want to make the analyse independent of the number of posts,  we will normalize each user feature vector so that features indicate the percentage of posts in this kind of neighborhood. Moreover, some neighborhoods are much more common than others due to the nature of the forums. Thus, we normalize and scale the features so that every feature has a global mean 0 and variance 1. The features represent now *z-scores*, that is, how many standard deviations is this user feature away from the mean.
+Since we want to make the analyse independent of the number of posts,  we will normalize each user feature vector so that features indicate the percentage of posts in this kind of neighborhood. Moreover, some neighborhoods are much more common than others due to the nature of the forums. Thus, we normalize and scale the features so that every feature has a global mean 0 and variance 1. Features now represent *z-scores*, that is, how many standard deviations is this user feature away from the mean.
 
-We will use a simple *k-means* to find the clusters. To decide the number of clusters, we run *k-means* for $k=2,...,10$ clusters and looked at the  Within-Cluster Sum of Squares.
+We will use a simple *k-means* to find the clusters. To decide the number of clusters, we run *k-means* for $k=2,...,25$ clusters and looked at the  *Within-Cluster Sum of Squares*.
 <p align="center">
 <img src="../images/2016-01-15-elbow2.png" width="600px">
 </p>
-This plot suggests a $k$ between 3 and 5. I will choose 5 to keep thinks simple. I run the k-means and then plot the scatter matrix of evert pair of variables, where colors correspond to the clusters.
+We choose 5 clusters to keep thinks simple. We run the k-means and then plot the scatter matrix of every pair of variables, where colors correspond to the clusters.
 <p align="center">
-<img src="../images/2016-01-15-ggpairs.png" width="700px">
+<img src="../images/2016-01-15-ggpairs.png" width="600px">
 </p>
 
-To see it more clearly, let's plot a PCA projection over the first two components:
+To see it more clearly, let's plot a couple of PCA projections (with two different libraries) over the first two components:
 <p align="center">
-<img src="../images/2016-01-15-PCA.png" width="800px">
+<img src="../images/2016-01-15-PCA.png" width="600px">
+</p>
+<p align="center">
+<img src="../images/2016-01-15-PCA2.png" width="600px">
+</p>
+
+And finally let's visualize a the distribution of each cluster for every feature:
+<p align="center">
+<img src="../images/2016-01-15-whiskers.png" width="600px">
 </p>
 
 ### Making sense of it
 
-Let us make a closer inspection on the characteristics of each group to understand what are these groups and to see whether the results make sense. Let's go take a look again at the PCA (with another library):
-<p align="center">
-<img src="../images/2016-01-15-PCA2.png" width="800px">
-</p>
+From the plots above, let's try to describe every grooup:
 
-<p align="center">
-<img src="../images/2016-01-15-whiskers.png" width="800px">
-</p>
+#### Spotters (salient motif: *spot*)
 
+#### Answerers (salient motif: *CA3*)
 
-Let's now formalize the detected groups:
+#### Bifurcators (salient motif: *CA3*)
+
+#### Catalyzers (salient motif: *CCB* *CIA* *SA*)
+
+#### Common People 
+
+#### Lurkers
+
 
   * **Spotters (pink)**: this people seems to be ignore by their peers. A lot of them are probably newbies.
   * **Common Answerers** (yellow): this people prefer to participate by answering to the root posts raised some interest (CA3 motif)
@@ -102,5 +113,5 @@ Once we assigned a role to every user, let's see what is the proportion of roles
 #### Do roles have an effect on thread length?
 
 <p align="center">
-<img src="../images/2016-01-15-cluster_vs_length.png" width="600">
+<img src="../images/2016-01-15-whiskers_roles_vs_length.png" width="600">
 </p>
