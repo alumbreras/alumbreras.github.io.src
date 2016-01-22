@@ -107,11 +107,11 @@ Common people do not stand out on any kind of neighborhood. Since they are among
 All users with less than ten posts in this dataset are considered as lurkers. No explicit role is assigned to them since we have not enough data.
 
 
-#### Which roles participate in which threads
+### Participations of roles in threads
 
-Once we assigned a role to every user, let's see what is the proportion of roles in every thread. We will 
+Once we assigned a role to every user, let's see what is the proportion of roles in every thread.
 
-#### Do roles have an effect on thread length?
+TODO: Do roles have an effect on thread length?
 
 <p align="center">
 <img src="../images/2016-01-15-whiskers_roles_vs_length.png" width="600">
