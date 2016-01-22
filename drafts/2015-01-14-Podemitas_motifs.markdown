@@ -78,41 +78,55 @@ To see it more clearly, let's plot a couple of PCA projections (with two differe
 <img src="../images/2016-01-15-PCA2.png" width="600px">
 </p>
 
-And finally let's visualize a the distribution of each cluster for every feature:
+Now let's visualize a the distribution of each cluster for every feature:
 <p align="center">
 <img src="../images/2016-01-15-whiskers.png" width="600px">
 </p>
 
+And finally let's see whether some groups prefer longer or shorter threads:
+<p align="center">
+<img src="../images/2016-01-15-whiskers_roles_vs_length.png" width="600px">
+</p>
+
 ### Making sense of it
 
-From the plots above, let's try to describe every grooup:
+From the plots above, let's try to describe every group:
 
-#### Spotters 
-Dark blue. Salient motif: *spot*	
+**Spotters** 
+Dark blue. Salient motif: *spot*
+	
 Spotters are seen isolated, without neighborhoods. This doesn't seem to have sense and needs more analysis.
 
-#### Answerers and bifurcators
+**Answerers and bifurcators**
 Green. Salient motif: *CA3* *SA*
+
 Answerers are seen replying to the main post along with other people (CA3) and sometimes getting even some reply (SA). But they have a special tendency to participate in bifurcations, which means deeper in the conversation.
 
-#### Catalyzers 
+**Catalyzers**
 Pink. Salient motif: *CIA*
+
 Catalyzers are seen answering to the root and then being followed by a chain.
 
-#### Common People 
+**Common People**
 Light blue. No salient motif.
+
 Common people do not stand out on any kind of neighborhood. Since they are among the active users (like all the analyzed users) they might not play any central role but they might be necessary for the health of the forum.
 
-#### Lurkers
+**Lurkers**
+Less than 10 posts during the observation period.
+
 All users with less than ten posts in this dataset are considered as lurkers. No explicit role is assigned to them since we have not enough data.
 
 
 ### Participations of roles in threads
 
 Once we assigned a role to every user, let's see what is the proportion of roles in every thread.
-
-TODO: Do roles have an effect on thread length?
-
 <p align="center">
-<img src="../images/2016-01-15-whiskers_roles_vs_length.png" width="600">
+<img src="../images/2016-01-15-thread_role_composition.png" width="600px">
 </p>
+
+
+Future:
+
+ * co-participation of roles
+ * roles as predictors of thread length
