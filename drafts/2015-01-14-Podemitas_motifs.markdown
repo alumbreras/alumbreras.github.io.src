@@ -66,7 +66,11 @@ We will use a simple *k-means* to find the clusters. To decide the number of clu
 <img src="../images/2016-01-15-elbow2.png" width="600px">
 </p>
 We choose 5 clusters to keep thinks simple. We run the k-means and then plot the scatter matrix of every pair of variables, where colors correspond to the clusters.
-![alt text](../images/2016-01-15-ggpairs.png)
+
+md:
+[![ggpairs](../images/2016-01-15-ggpairs.png)](../images/2016-01-15-ggpairs.png)
+
+htlm:
 <p align="center">
 <img src="../images/2016-01-15-ggpairs.png" width="600px">
 </p>
