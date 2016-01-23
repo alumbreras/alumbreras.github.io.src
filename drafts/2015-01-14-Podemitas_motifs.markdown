@@ -77,20 +77,13 @@ We choose 5 clusters to keep thinks simple. We re-run the k-means for $k=5$ (see
 </a>
 </p>
 
-
-Now let's visualize a the distribution of each cluster for every feature:
+PCA only let us see a low-dimensional projection of our data. To explore the data in all the original dimensions we can use whisker plots:
 <p align="center">
 <a href="../images/2016-01-15-whiskers.png">
 <img src="../images/2016-01-15-whiskers.png" width="600px">
 </a>
 </p>
 
-And finally let's see whether some groups prefer longer or shorter threads:
-<p align="center">
-<a href="../images/2016-01-15-whiskers_roles_vs_length.png">
-<img src="../images/2016-01-15-whiskers_roles_vs_length.png" width="600px">
-</a>
-</p>
 
 ### Making sense of it
 
@@ -101,10 +94,16 @@ Dark blue. Salient motif: *spot*
 	
 Spotters are seen isolated, without neighborhoods. This doesn't seem to have sense and needs more analysis.
 
-**Answerers and bifurcators**
+**Bifurcators**
+Red. Salient motif: *CCB*
+
+Bifurcators have a special tendency to participate in bifurcations that are placed deeper in the conversation.
+
+
+**Answerers**
 Green. Salient motif: *CA3* *SA*
 
-Answerers are seen replying to the main post along with other people (CA3) and sometimes getting even some reply (SA). But they have a special tendency to participate in bifurcations, which means deeper in the conversation.
+Answerers are seen replying to the main post along with other people (CA3) and sometimes getting even some reply (SA).
 
 **Catalyzers**
 Pink. Salient motif: *CIA*
@@ -121,10 +120,17 @@ Less than 10 posts during the observation period.
 
 All users with less than ten posts in this dataset are considered as lurkers. No explicit role is assigned to them since we have not enough data.
 
-
 ### Participations of roles in threads
 
-Once we assigned a role to every user, let's see what is the proportion of roles in every thread.
+Although we focused on structural motifs (neighborhoods), it's interesting to see whether there is some roles tend to participate in longer or shorter threads. If we plot a scatter plot of participation role (the role of the post author) vs thread length, we observe that *lurkers* and *spotters* are observed in shorter threads, through the means are not very different.
+<p align="center">
+<a href="../images/2016-01-15-whiskers_roles_vs_length.png">
+<img src="../images/2016-01-15-whiskers_roles_vs_length.png" width="600px">
+</a>
+</p>
+
+
+We can also plot the proportion of roles in every thread:
 <p align="center">
 <a href="../images/2016-01-15-thread_role_composition.png">
 <img src="../images/2016-01-15-thread_role_composition.png" width="600px">
