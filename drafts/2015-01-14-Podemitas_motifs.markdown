@@ -90,9 +90,8 @@ PCA only let us see a low-dimensional projection of our data. To explore the dat
 From the plots above, let's try to describe every group:
 
 **Spotters** 
-Dark blue. Salient motif: *spot*
-	
-Spotters are seen isolated, without neighborhoods. This doesn't seem to have sense and needs more analysis.
+  * Dark blue. Salient motif: *spot*
+  * Spotters are seen isolated, without neighborhoods. This doesn't seem to have sense and needs more analysis.
 
 **Bifurcators**
 Red. Salient motif: *CCB*
