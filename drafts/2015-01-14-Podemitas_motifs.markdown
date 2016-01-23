@@ -94,30 +94,25 @@ From the plots above, let's try to describe every group:
   * Spotters are seen isolated, without neighborhoods. This doesn't seem to have sense and needs more analysis.
 
 **Bifurcators**
-Red. Salient motif: *CCB*
-
-Bifurcators have a special tendency to participate in bifurcations that are placed deeper in the conversation.
+  * Red. Salient motif: *CCB*
+  * Bifurcators have a special tendency to participate in bifurcations that are placed deeper in the conversation.
 
 
 **Answerers**
-Green. Salient motif: *CA3* *SA*
-
-Answerers are seen replying to the main post along with other people (CA3) and sometimes getting even some reply (SA).
+  * Green. Salient motif: *CA3* *SA*
+  * Answerers are seen replying to the main post along with other people (CA3) and sometimes getting even some reply (SA).
 
 **Catalyzers**
-Pink. Salient motif: *CIA*
-
-Catalyzers are seen answering to the root and then being followed by a chain.
+  * Pink. Salient motif: *CIA* 
+  * Catalyzers are seen answering to the root and then being followed by a chain.
 
 **Common People**
-Light blue. No salient motif.
-
-Common people do not stand out on any kind of neighborhood. Since they are among the active users (like all the analyzed users) they might not play any central role but they might be necessary for the health of the forum.
+  * Light blue. No salient motif.
+  * Common people do not stand out on any kind of neighborhood. Since they are among the active users (like all the analyzed users) they might not play any central role but they might be necessary for the health of the forum.
 
 **Lurkers**
-Less than 10 posts during the observation period.
-
-All users with less than ten posts in this dataset are considered as lurkers. No explicit role is assigned to them since we have not enough data.
+  * Less than 10 posts during the observation period.
+  * All users with less than ten posts in this dataset are considered as lurkers. No explicit role is assigned to them since we have not enough data.
 
 ### Participations of roles in threads
 
