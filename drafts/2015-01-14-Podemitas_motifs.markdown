@@ -63,34 +63,44 @@ Since we want to make the analyse independent of the number of posts,  we will n
 
 We will use a simple *k-means* to find the clusters. To decide the number of clusters, we run *k-means* for $k=2,...,25$ clusters and looked at the  *Within-Cluster Sum of Squares*.
 <p align="center">
+<a href="../images/2016-01-15-elbow2.png"> 
 <img src="../images/2016-01-15-elbow2.png" width="600px">
+</a>
 </p>
 We choose 5 clusters to keep thinks simple. We run the k-means and then plot the scatter matrix of every pair of variables, where colors correspond to the clusters.
 
-md:
-[![ggpairs](../images/2016-01-15-ggpairs.png)](../images/2016-01-15-ggpairs.png)
-
 htlm:
 <p align="center">
+<a href="../images/2016-01-15-ggpairs.png"> 
 <img src="../images/2016-01-15-ggpairs.png" width="600px">
+</a>
 </p>
 
 To see it more clearly, let's plot a couple of PCA projections (with two different libraries) over the first two components:
 <p align="center">
+<a href="../images/2016-01-15-PCA.png">
 <img src="../images/2016-01-15-PCA.png" width="600px">
+</a>
 </p>
+
 <p align="center">
+<a href="../images/2016-01-15-PCA2.png">
 <img src="../images/2016-01-15-PCA2.png" width="600px">
+</a>
 </p>
 
 Now let's visualize a the distribution of each cluster for every feature:
 <p align="center">
+<a href="../images/2016-01-15-whiskers.png">
 <img src="../images/2016-01-15-whiskers.png" width="600px">
+</a>
 </p>
 
 And finally let's see whether some groups prefer longer or shorter threads:
 <p align="center">
+<a href="../images/2016-01-15-whiskers_roles_vs_length.png">
 <img src="../images/2016-01-15-whiskers_roles_vs_length.png" width="600px">
+</a>
 </p>
 
 ### Making sense of it
@@ -127,7 +137,9 @@ All users with less than ten posts in this dataset are considered as lurkers. No
 
 Once we assigned a role to every user, let's see what is the proportion of roles in every thread.
 <p align="center">
+<a href="../images/2016-01-15-thread_role_composition.png">
 <img src="../images/2016-01-15-thread_role_composition.png" width="600px">
+</a>
 </p>
 
 
