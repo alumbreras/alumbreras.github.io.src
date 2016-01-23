@@ -138,7 +138,10 @@ We can also plot the proportion of roles in every thread:
 </p>
 
 
-Future:
+Tasks:
 
- * co-participation of roles
- * roles as predictors of thread length
+- [x] motif analysis
+- [x] clustering
+- [x] role descriptions
+- [] co-participation of roles
+- [] roles as predictors of thread length
