@@ -70,10 +70,10 @@ We will use a simple *k-means* to find the clusters. To decide the number of clu
 We choose 5 clusters to keep thinks simple. We re-run the k-means for $k=5$ (see the [colored scatter matrix](../images/2016-01-15-ggpairs.png)) and then plot the scatter matrix of every pair of variables, where colors correspond to the clusters. Let's plot a couple of PCA projections (with two different libraries) over the first two components:
 <p align="center">
 <a href="../images/2016-01-15-PCA.png">
-<img src="../images/2016-01-15-PCA.png" width="400px">
+<img src="../images/2016-01-15-PCA.png" width="450px">
 </a>
 <a href="../images/2016-01-15-PCA2.png">
-<img src="../images/2016-01-15-PCA2.png" width="400px">
+<img src="../images/2016-01-15-PCA2.png" width="450px">
 </a>
 </p>
 
