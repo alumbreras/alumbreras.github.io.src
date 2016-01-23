@@ -18,11 +18,6 @@ A very natural to represent a conversation thread is a tree where vertices repre
 <img src="../images/2015-01-15-tree12.png" width="300px">
 </p>
 <p align="center">
-<img src="../images/2015-01-15-tree16.png" width="300px">
-<img src="../images/2015-01-15-tree23.png" width="300px">
-<img src="../images/2015-01-15-tree24.png" width="300px">
-</p>
-<p align="center">
 <img src="../images/2015-01-15-tree38.png" width="300px">
 <img src="../images/2015-01-15-tree40.png" width="300px">
 <img src="../images/2015-01-15-tree41.png" width="300px">
@@ -137,11 +132,11 @@ We can also plot the proportion of roles in every thread:
 </a>
 </p>
 
+Now let's see what is the role composition if we take only the first 10 posts of every thread:
 
-Tasks:
 
-- [x] motif analysis
-- [x] clustering
-- [x] role descriptions
+### Co-participation network of roles
+
+Future:
 - [] co-participation of roles
 - [] roles as predictors of thread length
