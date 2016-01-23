@@ -59,17 +59,16 @@ where I named the neighborhoods to help the intuition.
 
 Given the neighborhoods in which each user participates, we will analyze whether there exists different types of users or all users look similar.  
 
-Since we want to make the analyse independent of the number of posts,  we will normalize each user feature vector so that features indicate the percentage of posts in this kind of neighborhood. Moreover, some neighborhoods are much more common than others due to the nature of the forums. Thus, we normalize and scale the features so that every feature has a global mean 0 and variance 1. Features now represent *z-scores*, that is, how many standard deviations is this user feature away from the mean.
+We want to make the analyse independent of the number of posts, and for that we normalize each user feature vector so that features indicate the percentage of posts in this kind of neighborhood. Moreover, some neighborhoods are much more common than others due to the nature of the forums. Thus, we normalize and scale the features so that every feature has a global mean 0 and variance 1. Features now represent *z-scores*, that is, how many standard deviations is this user feature away from the mean.
 
-We will use a simple *k-means* to find the clusters. To decide the number of clusters, we run *k-means* for $k=2,...,25$ clusters and looked at the  *Within-Cluster Sum of Squares*.
+We will use a simple *k-means* to find the clusters. To decide the number of clusters, we run *k-means* for $k=2,...,25$ clusters and look at the  *Within-Cluster Sum of Squares*.
 <p align="center">
 <a href="../images/2016-01-15-elbow2.png"> 
 <img src="../images/2016-01-15-elbow2.png" width="600px">
 </a>
 </p>
-We choose 5 clusters to keep thinks simple. We run the k-means and then plot the scatter matrix of every pair of variables, where colors correspond to the clusters.
+We choose 5 clusters to keep thinks simple. We re-run the k-means for $k=5$ (see the [colored scatter matrix](../images/2016-01-15-ggpairs.png)) and then plot the scatter matrix of every pair of variables, where colors correspond to the clusters.
 
-htlm:
 <p align="center">
 <a href="../images/2016-01-15-ggpairs.png"> 
 <img src="../images/2016-01-15-ggpairs.png" width="600px">
