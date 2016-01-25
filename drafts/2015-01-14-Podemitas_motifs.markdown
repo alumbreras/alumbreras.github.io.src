@@ -125,14 +125,15 @@ Although we focused on structural motifs (neighborhoods), it's interesting to se
 </p>
 
 
-We can also plot the proportion of roles in every thread:
+We can also plot the proportion of roles in every thread and the proportion of roles in the first 10 posts of every thread:
 <p align="center">
 <a href="../images/2016-01-15-thread_role_composition.png">
 <img src="../images/2016-01-15-thread_role_composition.png" width="600px">
 </a>
+<a href="../images/2016-01-15-thread_role_composition_nfirst.png">
+<img src="../images/2016-01-15-thread_role_composition_nfirst.png" width="600px">
+</a>
 </p>
-
-Now let's see what is the role composition if we take only the first 10 posts of every thread:
 
 
 ### Co-participation network of roles
