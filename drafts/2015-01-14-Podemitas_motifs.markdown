@@ -86,7 +86,7 @@ From the plots above, let's try to describe every group:
 
 **Spotters** 
 
-  * Dark blue. Salient motif: *spot*
+  * Light blue. Salient motif: *spot*
   * Spotters are seen isolated, without neighborhoods. This doesn't seem to have sense and needs more analysis.
 
 **Bifurcators**
