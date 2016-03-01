@@ -1,26 +1,33 @@
 ---
 title: Publications
 ---
+#### Journals
 
-#### Conferences and workshops
+Lumbreras A., Guégan M., Velcin J., Jouve B. (2016) Clustering over user features and latent behavioral functions with dual-view mixture models (submitted to Computational Statistics)
 
-Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013), [Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf),   MARAMI 2013 
+#### Conferences
 
-Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013), [An insight into the Analysis of Roles in IMDb.](http://complexity-in-social-systems.u-cergy.fr/?page_id=326), Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013. [[abstract](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1.pdf)] [[presentation](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1_slides.pdf)]
+Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013), [Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf).   Modèles et Analyses Réseau : Approches Mathématiques et Informatiques (MARAMI)
+
+#### Workshops
+
+Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013), [An insight into the Analysis of Roles in IMDb.](http://complexity-in-social-systems.u-cergy.fr/?page_id=326) Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013. [[abstract](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1.pdf)] [[presentation](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1_slides.pdf)]
 
 Lumbreras A., Gavaldà R. (2012), [Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf), In Social Knowledge Discovery and Utilization Workshop 2012 [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
-
-Lumbreras A. (2012), [Towards Trust-Aware Recommender Systems. Masther’s Thesis](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf) [[slides](http://www.slideshare.net/anarcaster/towards-trustaware-recommender-systems)] [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
 
 
 #### Book chapters
 
 Toret J. (Coord.) (2012) [Tecnopolítica: la potencia de las multitudes conectadas. El sistema red 15M, un nuevo paradigma de la política distribuida](http://journals.uoc.edu/index.php/in3-working-paper-series/article/view/1878) Ed.: Universitat Oberta de Catalunya.
 
-#### Talks
-
-Toret J. (Coord.), Marin O., Lumbreras A., Aragón P., Linares J. y Aguilera M. (2012) [Gestation of the 15M, devices and augmented events, network system, emergence and self-organization. Evolution of the network system.](http://ictlogy.net/20121024-technopolitics-and-the-15m-the-power-of-connected-crowds-network-system-15m-a-new-paradigm-for-distributed-politics/)  Digital culture, networks and distributed politics in the age of the Internet. From the Global Spring to the Net Democracy, organized by the Communication and Civil Society programme of the IN3 in Barcelona, Spain, in October 24-25, 2012.
-
 #### Patents
 
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2015) Methods and systems for clustering-based recommendations. Filled July 2015. Patent pending.
+
+#### Master Thesis
+
+Lumbreras A. (2012), [Towards Trust-Aware Recommender Systems.](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf) Masther’s Thesis. [[slides](http://www.slideshare.net/anarcaster/towards-trustaware-recommender-systems)] [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
+
+#### Talks
+
+Toret J., Marin O., Lumbreras A., Aragón P., Linares J. y Aguilera M. (2012) [Gestation of the 15M, devices and augmented events, network system, emergence and self-organization. Evolution of the network system.](http://ictlogy.net/20121024-technopolitics-and-the-15m-the-power-of-connected-crowds-network-system-15m-a-new-paradigm-for-distributed-politics/)  Digital culture, networks and distributed politics in the age of the Internet. From the Global Spring to the Net Democracy, organized by the Communication and Civil Society programme of the IN3 in Barcelona, Spain, in October 24-25, 2012.
