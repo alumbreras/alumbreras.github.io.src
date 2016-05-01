@@ -5,7 +5,9 @@ title: Publications
 
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2016) Clustering over user features and latent behavioral functions with dual-view mixture models (submitted to Computational Statistics)
 
-#### Conferences
+#### Coferences
+
+Lumbreras A., Jouve B., Velcin J., Guégan M. (2016). Structural-temporal neighbourhoods of posts to characterize conversations in online forums (submitted to ASONAM '16)
 
 Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013), [Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf).   Modèles et Analyses Réseau : Approches Mathématiques et Informatiques (MARAMI)
 
@@ -27,7 +29,3 @@ Lumbreras A., Guégan M., Velcin J., Jouve B. (2015) Methods and systems for clu
 #### Master Thesis
 
 Lumbreras A. (2012), [Towards Trust-Aware Recommender Systems.](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf) Masther’s Thesis. [[slides](http://www.slideshare.net/anarcaster/towards-trustaware-recommender-systems)] [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
-
-#### Talks
-
-Toret J., Marin O., Lumbreras A., Aragón P., Linares J. y Aguilera M. (2012) [Gestation of the 15M, devices and augmented events, network system, emergence and self-organization. Evolution of the network system.](http://ictlogy.net/20121024-technopolitics-and-the-15m-the-power-of-connected-crowds-network-system-15m-a-new-paradigm-for-distributed-politics/)  Digital culture, networks and distributed politics in the age of the Internet. From the Global Spring to the Net Democracy, organized by the Communication and Civil Society programme of the IN3 in Barcelona, Spain, in October 24-25, 2012.
