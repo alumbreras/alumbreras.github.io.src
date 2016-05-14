@@ -5,7 +5,7 @@ title: Publications
 
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2016) Clustering over user features and latent behavioral functions with dual-view mixture models. Computational Statistics. *Under minor revision*
 
-#### Coferences
+#### Conferences
 
 Lumbreras A., Jouve B., Velcin J., Guégan M. (2016). Structural-temporal neighbourhoods of posts to characterize conversations in online forums (submitted to ASONAM '16)
 
