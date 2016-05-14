@@ -3,7 +3,7 @@ title: Publications
 ---
 #### Journals
 
-Lumbreras A., Guégan M., Velcin J., Jouve B. (2016) Clustering over user features and latent behavioral functions with dual-view mixture models (submitted to Computational Statistics)
+Lumbreras A., Guégan M., Velcin J., Jouve B. (2016) Clustering over user features and latent behavioral functions with dual-view mixture models. Computational Statistics. *Under minor revision*
 
 #### Coferences
 
