@@ -4,14 +4,13 @@ title: Publications
 
 
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2016)  
-Clustering over user features and latent behavioral functions with dual-view mixture models.  
-To appear in Computational Statistics.
+_Non-parametric clustering over user features and latent behavioral functions with dual-view mixture models_  
+Computational Statistics (*to appear*)
 
 
- 
-    Lumbreras A., Jouve B., Velcin J., Guégan M. (2016)
-    Structural-temporal neighbourhoods of posts to characterize conversations in online forums 
-    Submitted to ASONAM '16
+ Lumbreras A., Jouve B., Velcin J., Guégan M. (2016)  
+_Structural-temporal neighbourhoods of posts to characterize conversations in online forums_
+IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM '16)
 
 
 Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013)  
@@ -24,15 +23,19 @@ Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013)
 Workshop on Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013.  
 [[abstract](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1.pdf)] [[presentation](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1_slides.pdf)]
 
+
 Lumbreras A., Gavaldà R. (2012)  
 [Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf)  
 In Social Knowledge Discovery and Utilization Workshop 2012  
 [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
 
+
 Toret J. (Coord.) (2012)  
 [Tecnopolítica: la potencia de las multitudes conectadas. El sistema red 15M, un nuevo paradigma de la política distribuida](http://journals.uoc.edu/index.php/in3-working-paper-series/article/view/1878)  
 Ed.: Universitat Oberta de Catalunya.
 
+
+##
 
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2015)  
 Methods and systems for clustering-based recommendations.  
