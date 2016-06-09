@@ -14,24 +14,19 @@ To appear in Computational Statistics.
     Submitted to ASONAM '16
 
 
-Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013)
-
-[Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf).   
-
+Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013)  
+[Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf).  
 Modèles et Analyses Réseau : Approches Mathématiques et Informatiques (MARAMI '13)
 
 
-Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013)
-
-[An insight into the Analysis of Roles in IMDb.](http://complexity-in-social-systems.u-cergy.fr/?page_id=326) 
-
-Workshop on Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013. 
-
+Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013)  
+[An insight into the Analysis of Roles in IMDb.](http://complexity-in-social-systems.u-cergy.fr/?page_id=326)  
+Workshop on Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013.  
 [[abstract](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1.pdf)] [[presentation](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1_slides.pdf)]
 
-Lumbreras A., Gavaldà R. (2012), 
-[Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf), 
-In Social Knowledge Discovery and Utilization Workshop 2012 
+Lumbreras A., Gavaldà R. (2012)  
+[Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf)  
+In Social Knowledge Discovery and Utilization Workshop 2012  
 [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
 
 Toret J. (Coord.) (2012) 
