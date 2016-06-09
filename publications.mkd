@@ -1,31 +1,43 @@
 ---
 title: Publications
 ---
-#### Journals
-
-Lumbreras A., Guégan M., Velcin J., Jouve B. (2016) Clustering over user features and latent behavioral functions with dual-view mixture models. Computational Statistics. *Under minor revision*
-
-#### Conferences
-
-Lumbreras A., Jouve B., Velcin J., Guégan M. (2016). Structural-temporal neighbourhoods of posts to characterize conversations in online forums (submitted to ASONAM '16)
-
-Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013), [Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf).   Modèles et Analyses Réseau : Approches Mathématiques et Informatiques (MARAMI)
-
-#### Workshops
-
-Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013), [An insight into the Analysis of Roles in IMDb.](http://complexity-in-social-systems.u-cergy.fr/?page_id=326) Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013. [[abstract](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1.pdf)] [[presentation](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1_slides.pdf)]
-
-Lumbreras A., Gavaldà R. (2012), [Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf), In Social Knowledge Discovery and Utilization Workshop 2012 [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
 
 
-#### Book chapters
+Lumbreras A., Guégan M., Velcin J., Jouve B. (2016) 
+Clustering over user features and latent behavioral functions with dual-view mixture models. 
+To appear in Computational Statistics.
 
-Toret J. (Coord.) (2012) [Tecnopolítica: la potencia de las multitudes conectadas. El sistema red 15M, un nuevo paradigma de la política distribuida](http://journals.uoc.edu/index.php/in3-working-paper-series/article/view/1878) Ed.: Universitat Oberta de Catalunya.
 
-#### Patents
+Lumbreras A., Jouve B., Velcin J., Guégan M. (2016)
+Structural-temporal neighbourhoods of posts to characterize conversations in online forums 
+Submitted to ASONAM '16
 
-Lumbreras A., Guégan M., Velcin J., Jouve B. (2015) Methods and systems for clustering-based recommendations. Filled July 2015. Patent pending.
+Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013)
+[Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf).   
+Modèles et Analyses Réseau : Approches Mathématiques et Informatiques (MARAMI '13)
 
-#### Master Thesis
 
-Lumbreras A. (2012), [Towards Trust-Aware Recommender Systems.](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf) Masther’s Thesis. [[slides](http://www.slideshare.net/anarcaster/towards-trustaware-recommender-systems)] [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
+
+Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013)
+[An insight into the Analysis of Roles in IMDb.](http://complexity-in-social-systems.u-cergy.fr/?page_id=326) 
+Workshop on Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013. 
+[[abstract](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1.pdf)] [[presentation](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1_slides.pdf)]
+
+Lumbreras A., Gavaldà R. (2012), 
+[Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf), 
+In Social Knowledge Discovery and Utilization Workshop 2012 
+[[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
+
+Toret J. (Coord.) (2012) 
+[Tecnopolítica: la potencia de las multitudes conectadas. El sistema red 15M, un nuevo paradigma de la política distribuida](http://journals.uoc.edu/index.php/in3-working-paper-series/article/view/1878) 
+Ed.: Universitat Oberta de Catalunya.
+
+
+Lumbreras A., Guégan M., Velcin J., Jouve B. (2015) 
+Methods and systems for clustering-based recommendations. 
+Filled July 2015. Patent pending.
+
+Lumbreras A. (2012) 
+[Towards Trust-Aware Recommender Systems.](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf) 
+Masther’s Thesis. Master on Artificial Intelligence. Universitat Politècnica de Catalunya.
+[[slides](http://www.slideshare.net/anarcaster/towards-trustaware-recommender-systems)] [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
