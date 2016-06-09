@@ -29,16 +29,16 @@ Lumbreras A., Gavaldà R. (2012)
 In Social Knowledge Discovery and Utilization Workshop 2012  
 [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
 
-Toret J. (Coord.) (2012) 
-[Tecnopolítica: la potencia de las multitudes conectadas. El sistema red 15M, un nuevo paradigma de la política distribuida](http://journals.uoc.edu/index.php/in3-working-paper-series/article/view/1878) 
+Toret J. (Coord.) (2012)  
+[Tecnopolítica: la potencia de las multitudes conectadas. El sistema red 15M, un nuevo paradigma de la política distribuida](http://journals.uoc.edu/index.php/in3-working-paper-series/article/view/1878)  
 Ed.: Universitat Oberta de Catalunya.
 
 
-Lumbreras A., Guégan M., Velcin J., Jouve B. (2015) 
-Methods and systems for clustering-based recommendations. 
+Lumbreras A., Guégan M., Velcin J., Jouve B. (2015)  
+Methods and systems for clustering-based recommendations.  
 Filled July 2015. Patent pending.
 
-Lumbreras A. (2012) 
+Lumbreras A. (2012)  
 [Towards Trust-Aware Recommender Systems.](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf) 
-Masther’s Thesis. Master on Artificial Intelligence. Universitat Politècnica de Catalunya.
+Masther’s Thesis. Master on Artificial Intelligence. Universitat Politècnica de Catalunya.  
 [[slides](http://www.slideshare.net/anarcaster/towards-trustaware-recommender-systems)] [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
