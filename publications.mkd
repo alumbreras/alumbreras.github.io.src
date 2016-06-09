@@ -10,7 +10,7 @@ Computational Statistics (*to appear*)
 
 
  Lumbreras A., Jouve B., Velcin J., Guégan M. (2016)  
-_Structural-temporal neighbourhoods of posts to characterize conversations in online forums_
+_Structural-temporal neighbourhoods of posts to characterize conversations in online forums_  
 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM '16)
 
 
