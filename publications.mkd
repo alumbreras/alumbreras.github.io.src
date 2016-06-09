@@ -45,6 +45,6 @@ Filled July 2015. Patent pending.
 
 #### Masther's Thesis
 Lumbreras A. (2012)  
-[Towards Trust-Aware Recommender Systems.](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf) 
+[Towards Trust-Aware Recommender Systems.](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf)  
 Masther’s Thesis. Master on Artificial Intelligence. Universitat Politècnica de Catalunya.  
 [[slides](http://www.slideshare.net/anarcaster/towards-trustaware-recommender-systems)] [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
