@@ -4,23 +4,32 @@ title: Publications
 
 
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2016) 
+
 Clustering over user features and latent behavioral functions with dual-view mixture models. 
+
 To appear in Computational Statistics.
 
 
 Lumbreras A., Jouve B., Velcin J., Guégan M. (2016)
+
 Structural-temporal neighbourhoods of posts to characterize conversations in online forums 
+
 Submitted to ASONAM '16
 
+
 Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013)
+
 [Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf).   
+
 Modèles et Analyses Réseau : Approches Mathématiques et Informatiques (MARAMI '13)
 
 
-
 Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013)
+
 [An insight into the Analysis of Roles in IMDb.](http://complexity-in-social-systems.u-cergy.fr/?page_id=326) 
+
 Workshop on Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013. 
+
 [[abstract](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1.pdf)] [[presentation](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1_slides.pdf)]
 
 Lumbreras A., Gavaldà R. (2012), 
