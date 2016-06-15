@@ -5,8 +5,9 @@ title: Publications
 #### Publications
 
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2016)  
-_Non-parametric clustering over user features and latent behavioral functions with dual-view mixture models_  
-Computational Statistics (*to appear*)
+[Non-parametric clustering over user features and latent behavioral functions with dual-view mixture models](https://github.com/alumbreras/Dual-DPGMM/blob/master/doc/ComputStat%20submission/dualview_clustering_camera.pdf)  
+Computational Statistics (*to appear*)  
+[[code](https://github.com/alumbreras/Dual-DPGMM)]
 
 
  Lumbreras A., Jouve B., Velcin J., Guégan M. (2016)  
