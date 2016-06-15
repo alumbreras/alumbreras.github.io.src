@@ -27,7 +27,7 @@ Workshop on Complexity in social systems: from data to models, Cergy Pontoise (9
 
 
 Lumbreras A., Gavaldà R. (2012)  
-[Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf)
+[Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf)  
 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)   
 Social Knowledge Discovery and Utilization Workshop   
 [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
