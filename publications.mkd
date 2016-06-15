@@ -12,36 +12,37 @@ Computational Statistics (*to appear*)
 
  Lumbreras A., Jouve B., Velcin J., Guégan M. (2016)  
 _Structural-temporal neighbourhoods of posts to characterize conversations in online forums_  
-IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM '16) (*submitted*)
+IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM) (*submitted*)
 
 
 Lumbreras A., Lanagan J., Velcin J.,  Jouve B. (2013)  
-[Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf).  
-Modèles et Analyses Réseau : Approches Mathématiques et Informatiques (MARAMI '13)
+[Analyse des rôles dans les communautés virtuelles : définitions et premières expérimentations sur IMDb](http://arxiv.org/ftp/arxiv/papers/1309/1309.7187.pdf)  
+Modèles et Analyses Réseau : Approches Mathématiques et Informatiques (MARAMI)
 
 
 Lumbreras A., Lanagan J, Jouve B., Velcin J. (2013)  
 [An insight into the Analysis of Roles in IMDb.](http://complexity-in-social-systems.u-cergy.fr/?page_id=326)  
-Workshop on Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013.  
+Workshop on Complexity in social systems: from data to models, Cergy Pontoise (95), 27-28 juin 2013  
 [[abstract](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1.pdf)] [[presentation](http://albertolumbreras.net/files/Lumbreras_et_al_2013_1_slides.pdf)]
 
 
 Lumbreras A., Gavaldà R. (2012)  
-[Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf)  
-In Social Knowledge Discovery and Utilization Workshop 2012  
+[Applying trust metrics based on user interactions to recommendation in social networks](http://albertolumbreras.net/files/Lumbreras_Gavalda_ASONAM_2012_extversion.pdf)
+IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)   
+Social Knowledge Discovery and Utilization Workshop   
 [[code](https://bitbucket.org/alberto.lumbreras/a-trust-aware-recommender-for-twitter)]
 
 
 Toret J. (coord.), Aguilera M., Aragón P., Calleja A., Lumbreras A., Marín Ó (2012)  
 [Tecnopolítica: la potencia de las multitudes conectadas. El sistema red 15M, un nuevo paradigma de la política distribuida](http://tecnopolitica.net/sites/default/files/1878-5799-3-PB%20%282%29.pdf)  
-Ed.: Universitat Oberta de Catalunya.
+Ed.: Universitat Oberta de Catalunya
 
 
 
 #### Patents
 
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2015)  
-Methods and systems for clustering-based recommendations.  
+Methods and systems for clustering-based recommendations  
 Filled July 2015. Patent pending.
 
 
