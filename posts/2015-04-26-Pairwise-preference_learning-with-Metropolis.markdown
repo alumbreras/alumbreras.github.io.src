@@ -39,7 +39,7 @@ p(f | \mathbf{X}) \propto \prod_{(i,j) \in \mathcal{D}}  p(i \succ j | f) p(f | 
 $$
 and we will do it with the very simple [Metropolis-Hastings](http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm).
 
-#### Practice with R  
+### Practice with R  
 First, let us generate some toy data:
 
 ```r
@@ -126,7 +126,7 @@ posterior <- function(pairs, f){
   return(like)
 }
 ```
-
+####
 A Metropolis-Hasting implementation with its  proposal distribution:
 
 ```r
