@@ -57,16 +57,8 @@
 \begin{document}
 
 \selectlanguage{french}
-%-----       letter    ------------------------
-% recipient data
-\recipient{Université Jean Jaurès}{Toulouse, CNU 27}
-\date{22 mars de 2016}
-\opening{Chère Madame, Cher Monsieur,}
-\closing{Veuillez agréer, Madame, Monsieur, l’expression de mes respectueuses salutations,}
-%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
 
-\clearpage
-
+%\input{letter_cnrs.tex}
 
 \makecvtitle
 \section{Personal information}
@@ -85,37 +77,39 @@ Julien Velcin (Université Lyon 2, ERIC Lab), \\Marie Guégan (Technicolor)}  % 
 \cventry{Reykjavik}{\url{http://mlss2014.hiit.fi/}}{Machine Learning Summer School}{May 2014}{}{}
 \cventry{Les Houches}{\url{http://leshouches2014.weebly.com/}}{Structure and dynamics of complex networks}{April 2014}{}{}
 \cventry{Lisbon}{\url{http://lxmls.it.pt/2011/Home.html}}{Lisbon Machine Learning School}{July 2011}{}{}
+\newpage
+\section{Research experience (2004-2012)}
+%\subsection{R\&D}
+\cventry{Barcelona}{Telefónica Investigación y Desarrollo (Telefónica Research)}{Research Engineer}{2004--2010}{}{%
+I worked for 6 years in the research branch of Telefónica (multinational broadband and telecommunications provider) as a Research Engineer. As such, I have been involved in European research projects (founded by the FP7 program) as well as in internal research projects, mainly for the Internet and the Mobile divisions of the company. My tasks ranged from the design and implementation of algorithms to the writing of project proposals and coordination of small research teams in exploratory areas.\\
+Some of these projects are:%
+\begin{itemize}%
+\item \textbf{Expert Systems (2004--2006)}: design and implementation of an expert system that monitors and automatically corrects failures in a tier center of a Europan grid computing network for scientific research, coordinated by the CERN (Conseil Européen pour la Recherche Nucléaire) %(EGEE - Enabling Grids for E-Science in Europe).
+\item \textbf{Peer-to-Peer Networks (2006--2007)}: design and implementation of P2P (bluetooth and IPTV) content distribution, prototypes development and technical analysis of feasibility for its integration in the Telefónica platform.
+\item \textbf{Movisphere (corporate spin-off) (2008-2009)}: as a part of a two-people team,  I moved to Vancouver for three months to create a spin-off founded by Telefónica in collaboration with the Center for Digital Media. Movisphere was a multi-platform (mobile, TV, PC) service of \textit{casual games}. The project received the following awards: 
+  \begin{itemize}%
+  \item Best New Business Opportunity at Telefónica's Second Annual Research Fair.\\ \url{http://thecdm.ca/projects/archives/movisphere}
+  \item Honoree in the Integrated Mobile Project category at the 13th Webby Awards.\\ \url{http://tinyurl.com/webbyawards-movisphere}
+  \end{itemize}
+\item \textbf{Recommender Systems \& User Profiling (2009--2010)}: I worked in a platform to integrate all recommendations and user profiling services in Telefónica.
+\end{itemize}}
 
-\section{PhD Thesis}
-\cvitem{title}{\emph{
-Automatic Role Detection in Online Forums.
-}}
-\cvitem{supervisors}{Bertrand Jouve (CNRS, U. Toulouse 2. Previously: U. Lyon 2), \\
-Julien Velcin (Université Lyon 2, ERIC Lab), Marie Guégan (Technicolor)}
-
-\cvitem{description}{The aim of the thesis is to develop new Machine Learning and Social Network Analysis techniques to analyse the global and individual dynamics of online forums, to automatically find the different latent roles of participants and to study whether online social roles can be used as predictors for some aspects of users behaviour. Because behaviors in forums are primarily made of conversations, we focus our attention on they how users conversate.
-\vspace{0.1cm}  
-\\
-We propose three methods. Our first method for the detection of roles based on conversational structures. We apply different notions of neighborhood for posts in tree graph and we use these neighborhoods to detect groups of users that tend to participate in the same type of conversation.
-\vspace{0.1cm}  
-\\
-Our second method is based on stochastic models of growth for conversation threads. Building upon these generative models we propose a method to find groups of users that tend to reply to the same type of posts. We show that, while we are able to find clusters of users based on their past behaviors, there is no evidence that these behaviors are predictive of future behaviors. 
-\vspace{0.1cm}  
-\\
-In out last method we integrate the type of data used in the two previous methods (feature-based and behavioral or functional-based) and show that we can find clusters using fewer examples. The model exploits the idea that users with similar features have similar behaviors. Not only the method integrates inputs of different nature, adding more consistency to the clusters, but it tackles the problem of clustering users when most users have only participated a few times.}
-
-\section{Master's Thesis}
-\cvitem{title}{\emph{Towards Trust-Aware Recommender Systems}}
-\cvitem{supervisor}{Ricard Gavaldà}
-\cvitem{description}{Recommender   systems   have   been strongly   researched  within  the  last  decade.  With  the  arising  and  popularization   of   digital   social   networks   a   new   field   has   been opened  for  social recommendations.  We  propose  a  way  to  infer trust from  Twitter  interactions  and  to  compute  trust between  distant users. Our method  is  based  on  Markov chains,  which  makes it  simple  to  be  implemented  and computationally efficient.  We study the properties of this trust metric and study its application in a recommender system of tweets.}
-
-\section{Experience}
+\cventry{Barcelona}{Universitat Politècnica de Catalunya}{Research Engineer}{2010--2012}{}{
+\textit{Laboratory for Relational Algorithmics, Complexity and Learning.}\\
+I developed and implemented algorithms and system prototypes for data mining, sentiment analysis and recommender systems. I also helped in the organization of workshops and conferences hosted by our research lab. I was also involved in technology transfer projects to help industrial partners in adapting the algorithms developed in the lab. The following are two of the main projects:
+\begin{itemize}
+\item \textbf{Sentiment Analysis and Stream Mining}: I adapted the popular MOA software (stream data mining) to be used with particular sentiment analysis methods in social networks streams. I worked together with the researchers at the University of Waikato (New Zealand) who created MOA.  %I worked in close collaboration with Albert Bifet, main developer of MOA.
+\item \textbf{Recommender Systems}: I designed and implemented a prototype of a content recommender system for social networks. %(Master's Thesis).
+\end{itemize}
+}
+\cventry{Rennes}{Technicolor R\&I}{Research Engineer -- Thèse  CIFRE}{2013--2016}{}{
+In the context of a CIFRE thesis (industrial thesis) I worked as a Research Engineer in the research division of Technicolor (multinational specialized in digital video and image technologies). My thesis was part of a project that aimed to analyze online movie-related forums. 
+}
+\section{Teaching experience}
 \subsection{Academic supervision}
 \cventry{Lyon}{Université de Lyon 2 -- Technicolor}{Master's Thesis co-Supervisor}{2015}{}{}{\textit{Master in Data Mining and Knowledge Management.}\newline{}Co-supervised the Master's Thesis of Zara Alaverdyan at Technicolor, entitled "Language-based analysis in online forums" (supervisor: Julien Velcin).}
 
 \subsection{Teaching}%
-\small{(Due to my CIFRE contract I could not teach at the university during my thesis. I have started teaching as soon as my CIFRE contract expired.)}\\
-
 \cventry{Toulouse}{Université Paul Sabatier}{Vacataire}{March-April-May 2016}{}{Systèmes d'information et applications Web (TP, 24h) \\Web applications with PHP and MySQL.}
 
 \cventry{Toulouse}{IUT Rangueil}{Vacataire}{March-April-May 2016}{}{
@@ -123,28 +117,16 @@ UML design with Modelio (TP, 18h)}
 
 \cventry{Barcelona}{Epsilon Formación}{Teacher}{2000}{\url{http://www.epsilon-formacion.com/}}{Elaboration and teaching of courses for first years students of Telecommunication Engineering (TD, 40h)}
 
+\section{Master's Thesis (2012)}
+\cvitem{title}{\emph{Towards Trust-Aware Recommender Systems}}
+\cvitem{supervisor}{Ricard Gavaldà}
 
-\subsection{R\&D}
 
-\cventry{Barcelona}{Universitat Politècnica de Catalunya}{Research Assistant}{2010--2012}{}{
-\begin{itemize}
-\item \textbf{Sentiment Analysis and Stream Mining}: Adapted the popular MOA software (stream data mining) to be used with particular sentiment analysis methods in Twitter streams and to show the results in a friendlier interface. I worked in close collaboration with Albert Bifet, main developer of MOA.
-\item \textbf{Recommender Systems} (Master's Thesis).
-\end{itemize}
-}
-
-\cventry{Barcelona}{Telefónica R\&D}{R\&D Engineer}{2004--2010}{}{%
-Main projects:%
-\begin{itemize}%
-\item \textbf{Recommender Systems \& User Profiling (2009--2010)}: worked in the back-end of a platform to integrate all recommendations and user profiling services in Telefónica.
-\item \textbf{Movisphere (corporate spin-off) (2008-2009)}: as a part of a two-people team,  moved to Vancouver for three months to build a start-up founded by Telefónica in collaboration with the Center for Digital Media. Movisphere was a multi-platform (mobile, TV, PC) service of \textit{casual games}. The project received the following awards: 
-  \begin{itemize}%
-  \item Best New Business Opportunity at Telefónica's Second Annual Research Fair.\\ \url{http://thecdm.ca/projects/archives/movisphere}
-  \item Honoree in the Integrated Mobile Project category at the 13th Webby Awards.\\ \url{http://tinyurl.com/webbyawards-movisphere}
-  \end{itemize}
-\item \textbf{Peer-to-Peer Networks (2006--2007)}: worked on P2P (bluetooth and IPTV) content distribution, prototypes development and analysis of feasibility for integration in Telefónica platform.
-\item \textbf{Expert Systems (2004--2006)}: implementation of an expert system that monitors and automatically corrects failures in a tier center of a grid network (EGEE - Enabling Grids for E-Science in Europe).
-\end{itemize}}
+\section{PhD Thesis (2013-2016)}
+\cvitem{title}{\emph{
+Automatic Role Detection in Online Forums.}}
+\cvitem{supervisors}{Bertrand Jouve (CNRS, U. Toulouse 2. Previously: U. Lyon 2), \\
+Julien Velcin (Université Lyon 2, ERIC Lab), Marie Guégan (Technicolor)}
 
 
 \section{Languages}
@@ -187,11 +169,10 @@ Main projects:%
 \bibliographystyletalk{plain}
 \bibliographytalk{mypublications}  
 
-\section{Publications submitted}
-
-\nocitesubproceeding{Lumbreras2016ASONAM}
-\bibliographystylesubproceeding{plain}
-\bibliographysubproceeding{mypublications}
+%\section{Publications submitted}
+%\nocitesubproceeding{Lumbreras2016ASONAM}
+%\bibliographystylesubproceeding{plain}
+%\bibliographysubproceeding{mypublications}
 
 \section{Patents}
 %\nocitepatent{Lumbreras2015}
@@ -221,8 +202,6 @@ recommendations, July 2015. [EU Filled Patent, number 15306168.4].
 \item Carlos Domingo (Lab Director) \hfill \url{https://about.me/carlosdomingo}
 \item Xavier Amatriain (co-worker, Senior Researcher) \hfill \url{http://xavier.amatriain.net/}
 \end{itemize}
-
-
 
 
 \end{document}
