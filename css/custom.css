@@ -52,19 +52,11 @@ pre code {
     font-size: 24px;
 }*/
 
-h2 {
-    font-size: 20px;
-    font-weight: bold;
-}
 
-h3 {
-    font-size: 20px;
-}
-
-h4 {
+/*h4 {
     font-size: 15px;
     margin-top: 30px;
-}
+}*/
 
 h1,h2,h3,h4 {
 	line-height:1em;
@@ -73,3 +65,18 @@ h1,h2,h3,h4 {
 	clear:left;
 	font-family:'lucida grande', sans-serif
 }
+
+h2 {
+	font-size:100%;
+	line-height:1.5em;
+	margin:1.5em 0 1.5em 0;
+	font-weight:bold
+}
+h3 {
+	font-size:100%;
+	line-height:1.5em;
+	margin:1.5em 0 .5em 0;
+	font-weight:bold;
+	font-variant:small-caps
+}
+
