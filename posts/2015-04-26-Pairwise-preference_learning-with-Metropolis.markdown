@@ -9,15 +9,13 @@ Imagine we observe a set of pairwise preferences from a user. We denote this set
 
 We want to know the posterior distribution of $\mathbf{f}$, that is, the probability distribution of the utilities $\mathbf{f}$ after observing the data. For this we need a prior distribution over $\mathbf{f}$ and a likelihood function of the data given the utilities $\mathbf{f}$.
 
-**Likelihood**  
-If we knew these utility function, and assuming some noise $\lambda$ over the observed choices, we could model the likelihood of a pairwise choice as:
+**Likelihood:**  If we knew these utility function, and assuming some noise $\lambda$ over the observed choices, we could model the likelihood of a pairwise choice as:
 $$
 p(i \succ j | f) = \Phi(\frac{f_i - f_j}{\lambda})
 $$
 where $\Phi$ is the probit function.
 
-**Prior**  
-We put a Gaussian prior over the utilities so that the $m$ utilities are drawn from the same Gaussian distribution. 
+**Prior:**  We put a Gaussian prior over the utilities so that the $m$ utilities are drawn from the same Gaussian distribution. 
 $$
 p(f) = \mathcal{N}(f | 0, \mathbf{K})
 $$
@@ -27,8 +25,7 @@ $$
 p(f_s) = \mathcal{N}(f_s | 0, \mathbf{K_s})
 $$
 
-**Posterior**   
-The posterior distribution is given by Bayes rule:
+**Posterior:**   The posterior distribution is given by Bayes rule:
 $$
 p(f | \mathbf{X}) = \frac{\prod_{(i,j) \in \mathcal{D}}  p(i \succ j | f) p(f | 0, \mathbf{K})}
 {\int_f \prod_{(i,j) \in \mathcal{D}}  p(i \succ j | f) p(f | 0, \mathbf{K})}
