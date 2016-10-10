@@ -47,11 +47,29 @@ pre code {
  ###: h3
  ####: h4 (for sections)
 */
+
+/*h1 {
+    font-size: 24px;
+}*/
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 h3 {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 30px;
+}
+
+h1,h2,h3,h4 {
+	line-height:1em;
+	font-size:1.5em;
+	font-weight:normal;
+	clear:left;
+	font-family:'lucida grande', sans-serif
 }
