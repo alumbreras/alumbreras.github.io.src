@@ -4,7 +4,7 @@ tags: tutorials, bayesian statistics, bayesian inference, metropolis-hastings
 ---
 (draft)
 
-#### Theory 
+## Theory 
 Imagine we observe a set of pairwise preferences from a user. We denote this set by $\mathcal{D} = \left \{ \mathbf{x}_i \succ \mathbf{x}_j \right \}$ where $1 \leq i \leq m$ and $1 \leq j \leq m$. Let us assume that the pairwise preferences depend on a latent utility $f_i$ given to every item $i \in X$ so that item $i$ is prefered over item $j$ iff utility of $i$ is bigger than utility of $j$.
 
 We want to know the posterior distribution of $\mathbf{f}$, that is, the probability distribution of the utilities $\mathbf{f}$ after observing the data. For this we need a prior distribution over $\mathbf{f}$ and a likelihood function of the data given the utilities $\mathbf{f}$.
