@@ -41,45 +41,6 @@ pre code {
     margin-left: 17%;
 }
 
-/* 
- Adjust headers for posts titles and sections.
- Title: h3
- ###: h3
- ####: h4 (for sections)
-*/
-
-/*h1 {
-    font-size: 24px;
-}*/
-
-
-/*h4 {
-    font-size: 15px;
-    margin-top: 30px;
-}*/
-
-/*h1,h2,h3,h4 {
-	line-height:1em;
-	font-size:1.5em;
-	font-weight:normal;
-	clear:left;
-	font-family:'lucida grande', sans-serif
-}
-
-h2 {
-	font-size:100%;
-	line-height:1.5em;
-	margin:1.5em 0 1.5em 0;
-	font-weight:bold
-}
-h3 {
-	font-size:100%;
-	line-height:1.5em;
-	margin:1.5em 0 .5em 0;
-	font-weight:bold;
-	font-variant:small-caps
-}
-*/
 
 h2,.h2 {
 	font-size:120%;
@@ -94,6 +55,7 @@ h3,.h3 {
 	line-height:1.25em;
 	font-weight:bold;
 	font-family: 'lucida grande', sans-serif;
+	font-variant:small-caps;
 }
 
 h4,.h4 {
