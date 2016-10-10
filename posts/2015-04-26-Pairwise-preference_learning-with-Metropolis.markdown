@@ -15,6 +15,8 @@ p(i \succ j | f) = \Phi(\frac{f_i - f_j}{\lambda})
 $$
 where $\Phi$ is the probit function.
 
+### Prior
+
 **Prior:**  We put a Gaussian prior over the utilities so that the $m$ utilities are drawn from the same Gaussian distribution. 
 $$
 p(f) = \mathcal{N}(f | 0, \mathbf{K})
