@@ -13,7 +13,7 @@ El resumen de la historia es que la probabilidad de obtener 1515 síes era cerca
 
 Primero vamos con la versión del 0.033%, defendida por [Salvador Cardús y Mario Bilbao](http://www.lavanguardia.com/politica/20151228/301071423295/probabilidad-empate-cup.html), y luego iremos con la del 1.4% defendida en las redes por [Roger Guimerà](http://blocs.mesvilaweb.cat/rguimera/?p=267996), [Ricardo Gallir](https://gallir.wordpress.com/2015/12/28/las-probabilidades-del-empate-de-la-cup/) y Xavier Sala-i-Martí (que en frio dijo 0.033 pero luego corrigió).
 
-####Modelo incorrecto del 0.033%: la urna de Baños
+## Modelo incorrecto del 0.033%: la urna de Baños
 <p align="center">
 <img src="../images/2015-12-28-cunyao_prob.jpeg" width="300px">
 </p>
@@ -53,7 +53,7 @@ cat("Probabilidad de empate:", probabilidad_empate*100)
 donde la probabilidad de empate (y de cualquier otro resultado) sería de 1 sobre 3030 posibilidades, 1/3030, o un 0.033%. Lo cual, por cierto, no es *imposible*, de hecho es más que la probabilidad de que te toque el Gordo.
 
 
-#### Modelo correcto del 1.4%: 3030 cupaires indecisos.
+## Modelo correcto del 1.4%: 3030 cupaires indecisos.
 
 Pero la aburrida realidad es que Baños no se pone en bikini a sacar una papeleta de una urna sino que 3030 cupaires depositan un sí o un no. En este caso, la intución nos dice que algunos resultados extremos como 0 a favor y 3030 en contra son menos probables que 1000 a favor y 2030 en contra. Es decir, intuitivamente vemos que hay resultados más probables que otros. Matemáticamente decimos que **no es una distribución uniforme**.
 
@@ -92,7 +92,7 @@ cat("Probabilidad de empate:", probabilidad_empate*100)
 </p>
 donde resulta que lo que tenemos es una distribución normal (la culpa es del [Teorema del Límite Central](https://es.wikipedia.org/wiki/Teorema_del_l%C3%ADmite_central)) donde el número más frecuente es el 1515, que ha ocurrido un 1,47% de las veces. Sí, es poco probable, **pero es el más probable**.
 
-#### Modelo más razonable aún: 20% de cupaires indecisos
+## Modelo más razonable aún: 20% de cupaires indecisos
 [Antoni-Ítalo](http://www.eldiario.es/piedrasdepapel/probable-empate-Asamblea-CUP_6_467263286.html) propone asumir que el 80% de los cupaires ya venían decididos de casa y que sólo había un 20% de indecisos. Esto va a ser clave, ya que las posibilidades se van a reducir y por lo tanto las probabilidades serán mucho mayores para cada posible resultado. Repetimos la simulación:
 
 ```r
@@ -135,7 +135,7 @@ cat("Probabilidad de empate:", probabilidad_empate*100)
 
 donde ahora la probabilidad de empate sube al 3.187%.
 
-#### Todos los modelos son malos. Pero algunos son útiles (George Box)
+## Todos los modelos son malos. Pero algunos son útiles (George Box)
 
 En cualquier caso, estamos asumiendo que el voto de un cupaire no afecta el voto de otro cupaire y estamos obviando dinámicas sociológicas de grupo, el efecto de las corrientes internas y una serie de fenómenos que podrían hacer el empate incluso más probable (o menos). Pero no hay duda de que la probabilidad estaba más cerca del 1.4% que del 0.03%.
 
