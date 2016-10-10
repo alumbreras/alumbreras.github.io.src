@@ -7,7 +7,7 @@ license:             BSD3
 license-file:        LICENSE
 author:              Alberto Lumbreras
 maintainer:          alberto.lumbreras@gmail.com
-copyright:           2015 Alberto Lumbreras
+copyright:           2016 Alberto Lumbreras
 category:            Web
 build-type:          Simple
 cabal-version:       >=1.10

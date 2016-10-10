@@ -153,7 +153,7 @@ extensions = Set.fromList [Ext_inline_notes, Ext_tex_math_dollars, Ext_latex_mac
 feedConfig :: FeedConfiguration
 feedConfig = FeedConfiguration {
         feedTitle       = "albertolumbreras.net",
-        feedDescription = "Machine Learning and Social Network Analysis",
+        feedDescription = "Machine Learning and Bayesian Inference",
         feedAuthorName  = "Alberto Lumbreras",
         feedAuthorEmail = "alberto.lumbreras@gmail.com",
         feedRoot        = "http://www.albertolumbreras.net"
