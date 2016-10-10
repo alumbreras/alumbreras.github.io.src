@@ -82,16 +82,18 @@ h3 {
 */
 
 h2,.h2 {
-	font-size:110%;
+	font-size:120%;
 	line-height:1.5em;
 	margin:1.5em 0 1.5em 0;
 	font-weight:bold;
+	font-family: 'lucida grande', sans-serif;
 }
 
 h3,.h3 {
-	font-size:100%;
+	font-size:110%;
 	line-height:1.25em;
 	font-weight:bold;
+	font-family: 'lucida grande', sans-serif;
 }
 
 h4,.h4 {
