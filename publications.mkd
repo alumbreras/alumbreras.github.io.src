@@ -2,7 +2,7 @@
 title: Publications
 ---
 
-#### Publications
+## Publications
 
 [Non-parametric clustering over user features and latent behavioral functions with dual-view mixture models](https://github.com/alumbreras/Dual-DPGMM/blob/master/doc/ComputStat%20submission/dualview_clustering_camera.pdf)  
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2016)  
@@ -36,14 +36,14 @@ Ed.: Universitat Oberta de Catalunya
 
 
 
-#### Patents
+## Patents
 
 _Methods and systems for clustering-based recommendations_  
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2015)  
 Filled July 2015. Patent pending.
 
 
-#### Masther's Thesis
+## Masther's Thesis
 [Towards Trust-Aware Recommender Systems.](http://albertolumbreras.net/files/Lumbreras_MasterThesis.pdf)  
 Lumbreras A. (2012)  
 Masther’s Thesis. Master on Artificial Intelligence. Universitat Politècnica de Catalunya.  
