@@ -1,0 +1,11 @@
+---
+title: PCA and Bayesian PCA
+tags: PCA, bayesian
+---
+
+Principal Component Analysis is a technique that rotates a space so that as much variance as possible is contained in the first dimensions. In this post I'll reproduce Bishop's explaination.
+
+## Variance view
+
+## Error view
+
