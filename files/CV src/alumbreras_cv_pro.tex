@@ -1,0 +1,150 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% IMPORTANT: with multibib, remember to bibtex books.aux etc so that .bbl and .blg are generated.
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{red}                               % color 
+% character encoding
+\usepackage[utf8]{inputenc}    
+\usepackage[english,french]{babel} 
+\usepackage[scale=0.80]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{ragged2e}
+% personal data
+
+%\usepackage{fontspec}
+
+
+\name{Alberto}{Lumbreras}
+\title{CV}                               % optional, remove / comment the line if not wanted
+%\address{12 rue de la Blanchisserie}{31500 Toulouse}{France} 
+\phone[mobile]{+33~634~266~794}       
+%\phone[fixed]{+33~531~986~660}
+\email{alberto.lumbreras@irit.fr}                               \homepage{www.albertolumbreras.net}                          \social[linkedin]{albertolumbreras}                        
+\social[twitter]{albertlumbreras}                            
+\social[github]{alumbreras}                              
+%\quote{\texttt{Status:} Visiting PhD student  at IRIT (Feb 2016 -- present)}  
+% optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+\usepackage{multibib}
+\newcites{book,article,proceeding,subproceeding,proceedingnational, patent,talk}{{Books},{Journals},{Conferences and Workshops (international)},{Conferences and Workshops (international)},{Conferences and Workshops (national)},{Patents},{Seminars and Posters}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+\selectlanguage{french}
+
+%\input{letter_cnrs.tex}
+
+\vspace{-20cm}
+\makecvtitle
+\section{Personal information}
+\cvitem{Date and place of birth}{April 4th 1981, Barcelona, Spain (Spanish nationality)}
+\section{Education}
+\cventry{Lyon}{Université de Lyon 2}{PhD, Computer Science}{2013--2016}{}{Industrial PhD (CIFRE) in Technicolor R\&D (Rennes).\\
+\underline{Title}: \textit{Automatic Role Detection in Online Forums}\\
+\underline{Advisors}:\\
+JOUVE, Bertrand (DR CNRS 41 \& 53, FRAMESPA - U. Toulouse 2, Institut de Mathématiques de Toulouse), \\
+VELCIN, Julien (HDR CNU 27, ERIC - U. Lyon 2),\\
+GUÉGAN, Marie (Expert, Technicolor)\\
+\underline{Jury}:\\
+BOUVEYRON, Charles (PR CNU 26, Président)\\
+LATAPY, Matthieu (DR CNRS 6,
+ Examinateur)\\
+KUNTZ-COSPEREC, Pascale (PR CNU 27, PR, U. de Nantes, Rapporteure)\\  
+KALTENBRUNNER, Andreas  (DR Eurecat, Digital Humanites Department and Social Media Research Group, Rapporteur)\\
+}  % arguments 3 to 6 can be left empty
+\cventry{Barcelona}{Universitat Politècnica de Catalunya}{Master, Artificial Intelligence}{2009--2012}{}{(2-year programme. Score: 7,69/10)\\
+\underline{Master Thesis}: \textit{ Towards Trust-Aware Recommender Systems
+}\\
+\underline{Advisor}: Ricard Gavaldà.
+}
+\cventry{Barcelona}{Universitat Politècnica de Catalunya}{BSc, Telecommunication Engineering}{1999--2005}{}{(5-year programme)\\
+\underline{Final Project:} Expert System for incidence detection and correction in Grid nodes.\\
+\underline{Supervisor:} Rosa Badia (UPC - Barcelona Supercomputing Center), Antonio Abad (Telefónica Research)
+}
+
+
+\section{Languages}
+\cvdoubleitem{French}{fluent}{Spanish}{Native}
+\cvdoubleitem{English}{fluent}{Catalan}{Native}
+
+\newpage
+\section{Work experience}
+\cventry{Toulouse}{Institut de Recherche en Informatique de Toulouse (IRIT)}{Posdoc Researcher}{2016--}{}{I work in the FACTORY project coordinated by Cédric Févotte. My current research is focused on Machine Learning and Bayesian Matrix Factorization. }
+\cventry{Barcelona}{Universitat Politècnica de Catalunya}{Research Engineer}{2010--2012}{}{
+\textit{Laboratory for Relational Algorithmics, Complexity and Learning.}\\
+I developed and implemented algorithms and system prototypes for data mining, sentiment analysis and recommender systems. I also helped in the organization of workshops and conferences hosted by our research lab. I was also involved in technology transfer projects to help industrial partners in adapting the algorithms developed in the lab. 
+}
+
+\cventry{Barcelona}{Telefónica Investigación y Desarrollo (Telefónica Research)}{Research Engineer}{2004--2010}{}{%
+I worked for 6 years in the research branch of Telefónica (multinational broadband and telecommunications provider) as a Research Engineer. As such, I have been involved in European research projects (founded by the FP7 program) as well as in internal research projects, mainly for the Internet and the Mobile divisions of the company. My tasks ranged from the design and implementation of algorithms to the writing of project proposals and coordination of small research teams in exploratory areas.
+}
+
+\section{Teaching experience}
+\subsection{Teaching}%
+\cventry{Toulouse}{Université Paul Sabatier}{Vacataire}{March-April-May 2016}{}{Systèmes d'information et applications Web (TP, 20h) \\Web applications with PHP and MySQL.}
+
+\cventry{Toulouse}{IUT Paul Sabatier}{Vacataire}{March-April-May 2016}{}{
+UML design with Modelio, Test-driven development with JUnit (TP, 18h)}
+
+\cventry{Barcelona}{Epsilon Formación}{Teacher}{2000}{\url{http://www.epsilon-formacion.com/}}{Elaboration and teaching of courses for first years students of Telecommunication Engineering (TD, 40h)}
+
+\subsection{Master thesis supervision}
+\cventry{Lyon}{Université de Lyon 2 -- Technicolor}{Master's Thesis co-Supervisor (6 months)}{2015}{}{}{\textit{Master in Data Mining and Knowledge Management.}\newline{}Co-supervised the Master's Thesis of Zara Alaverdyan at Technicolor, entitled "Language-based analysis in online forums" (supervisor: Julien Velcin).}
+
+\section{Conferences and workshops organization}
+\cventry{Toulouse}{(Institut de Systèmes Complexes de Toulouse)}{Dynamic Networks workshop}{2016}{}{\url{http://isc-t.fr/language/fr/evenements/?event_id1=5}\\Hotel and trip reservation for invited speakers; communications (mailing, website announcements), agenda.}
+\cventry{Barcelona}{\url{http://www.ecmlpkdd2010.org/index1f1e.html}}{ECML-PKDD}{2010}{}{Local logistics, reception and assistance for speakers during the conference.}
+
+\section{Publications}
+\begin{itemize}
+\item Chapitres: 1
+\item Journaux: 1
+\item Workshops internationaux: 2
+\item Conférences nationales: 1
+\end{itemize}
+
+\nocitebook{toret2015}
+\bibliographystylebook{plain}
+\bibliographybook{mypublications}
+
+\nocitearticle{Lumbreras2016}
+\bibliographystylearticle{plain}
+\bibliographyarticle{mypublications}
+
+
+\nociteproceeding{Lumbreras2012a, Lumbreras2013a}
+\bibliographystyleproceeding{plain}
+\bibliographyproceeding{mypublications}   
+
+\nociteproceedingnational{Lumbreras2013b}
+\bibliographystyleproceedingnational{plain}
+(with proceedings)
+\bibliographyproceedingnational{mypublications}   
+
+\nocitetalk{Lumbreras2016MCMC, Lumbreras2016MIT, Lumbreras2015LARCA, Lumbreras2015d, Lumbreras2015MOREHIST, Lumbreras2015IRIT, Toret2012}
+\bibliographystyletalk{plain}
+\bibliographytalk{mypublications}  
+\end{document}
+
+
+%% end of file `template.tex'.

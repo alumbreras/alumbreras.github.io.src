@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.11)  5 OCT 2016 10:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.11)  21 JAN 2017 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**alumbreras_cv_CNRS.tex
-(./alumbreras_cv_CNRS.tex
+**alumbreras_cv_pro.tex
+(./alumbreras_cv_pro.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 9 languages loaded.
 (./moderncv.cls
@@ -905,28 +905,28 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip97
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 57.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 57.
+Package hyperref Info: Option `breaklinks' set `true' on input line 51.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 51.
 
-(./alumbreras_cv_CNRS.aux)
-\openout1 = `alumbreras_cv_CNRS.aux'.
+(./alumbreras_cv_pro.aux)
+\openout1 = `alumbreras_cv_pro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -956,7 +956,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 57.
+LaTeX Info: Redefining \microtypecontext on input line 51.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -970,7 +970,7 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 57.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 51.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -979,15 +979,15 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Info: Redefining \degres on input line 57.
+LaTeX Info: Redefining \degres on input line 51.
 
 
 Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
 (frenchb.ldf)                frenchb will NOT customise it;
-(frenchb.ldf)                reported on input line 57.
+(frenchb.ldf)                reported on input line 51.
 
-LaTeX Info: Redefining \dots on input line 57.
-LaTeX Info: Redefining \up on input line 57.
+LaTeX Info: Redefining \dots on input line 51.
+LaTeX Info: Redefining \up on input line 51.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -996,15 +996,15 @@ LaTeX Info: Redefining \up on input line 57.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(74.68848pt, 448.1309pt, 74.68849pt)
-* v-part:(T,H,B)=(84.50467pt, 633.78513pt, 126.75705pt)
+* h-part:(L,W,R)=(59.74988pt, 478.00812pt, 59.74988pt)
+* v-part:(T,H,B)=(67.60269pt, 676.04005pt, 101.4041pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=448.1309pt
-* \textheight=633.78513pt
-* \oddsidemargin=2.41849pt
-* \evensidemargin=2.41849pt
-* \topmargin=-24.76532pt
+* \textwidth=478.00812pt
+* \textheight=676.04005pt
+* \oddsidemargin=-12.52011pt
+* \evensidemargin=-12.52011pt
+* \topmargin=-41.6673pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1023,9 +1023,9 @@ LaTeX Info: Redefining \up on input line 57.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 57.
+LaTeX Info: Redefining \selectfont on input line 51.
 \AtBeginShipoutBox=\box45
-Package hyperref Info: Link coloring OFF on input line 57.
+Package hyperref Info: Link coloring OFF on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1035,34 +1035,33 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
 
-(./alumbreras_cv_CNRS.out) (./alumbreras_cv_CNRS.out)
+(./alumbreras_cv_pro.out) (./alumbreras_cv_pro.out)
 \@outlinefile=\write10
-\openout10 = `alumbreras_cv_CNRS.out'.
+\openout10 = `alumbreras_cv_pro.out'.
 
 \pagenumberwidth=\skip98
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 57.
- (./letter_cnrs.tex
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <24.88> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 22.
-LaTeX Font Info:    Try loading font information for OMS+qpl on input line 22.
-LaTeX Font Info:    No file OMSqpl.fd. on input line 22.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 58.
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 58.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 58.
 
 
 LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 22.
+(Font)              for symbol `textbullet' on input line 58.
 
 LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 22.
+t line 58.
 (/home/alumbreras/texmf/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2015/07/30 Font definitions for U/fontawesomethree.
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 22.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 58.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1071,37 +1070,65 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 22.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 58.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 22.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 58.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 22.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 58.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 22.
+(Font)              <10.95> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
  []
 
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 22.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 33.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 60.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 74.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 74.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 74.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 74.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+
+ []
+
+[1
+
+{/home/alumbreras/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
+(Font)              using `T1/lmss/m/n' instead on input line 103.
+
+
+Underfull \hbox (badness 10000) detected at line 103
+\T1/lmss/m/n/8 .
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 109.
+
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1109,50 +1136,17 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1
 
-{/home/alumbreras/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2])
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 64.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 71.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 71.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 71.
-
-
-LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/m/n' instead on input line 75.
-
-
-Underfull \hbox (badness 10000) detected at line 75
+Underfull \hbox (badness 10000) detected at line 111
 \T1/lmss/m/n/8 .
  []
 
-[3
-
-]
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 95.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
-
-Underfull \hbox (badness 10000) detected at line 109
-\T1/lmss/m/n/8 .
- []
-
-[4]
-Underfull \hbox (badness 10000) detected at line 112
-\T1/lmss/m/n/8 .
- []
-
-(./article.bbl
+[2] (./book.bbl
 Underfull \hbox (badness 10000) detected at line 1
 \T1/lmss/m/n/8 .
  []
 
-) (./book.bbl
+) (./article.bbl
 Underfull \hbox (badness 10000) detected at line 1
 \T1/lmss/m/n/8 .
  []
@@ -1162,7 +1156,7 @@ Underfull \hbox (badness 10000) detected at line 1
 \T1/lmss/m/n/8 .
  []
 
-[5]) (./proceedingnational.bbl
+) (./proceedingnational.bbl
 Underfull \hbox (badness 10000) detected at line 1
 \T1/lmss/m/n/8 .
  []
@@ -1172,57 +1166,54 @@ Underfull \hbox (badness 10000) detected at line 1
 \T1/lmss/m/n/8 .
  []
 
-) (./subproceeding.bbl
-Underfull \hbox (badness 10000) detected at line 1
-\T1/lmss/m/n/8 .
- []
 
-) [6]
-Underfull \hbox (badness 10000) detected at line 192
-\T1/lmss/m/n/8 .
+Underfull \hbox (badness 6412) in paragraph at lines 20--26
+[]\T1/lmss/m/n/10.95 (+20) Lumbreras A.  Roles and dy-na-mics of on-line conver
+-sa-tions.  []$\T1/lmtt/m/n/10.95 https : / / www . irit . fr /
  []
 
 
-Underfull \hbox (badness 10000) detected at line 200
-\T1/lmss/m/n/8 .
+Underfull \hbox (badness 2662) in paragraph at lines 28--34
+[]\T1/lmss/m/n/10.95 (+20) Lumbreras A.  Dy-na-mique des dis-cus-sions dans les
+ fo-rums.  []$\T1/lmtt/m/n/10.95 https : / / iscpif . fr / event /
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
- (./alumbreras_cv_CNRS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
-Package rerunfilecheck Info: File `alumbreras_cv_CNRS.out' has not changed.
-(rerunfilecheck)             Checksum: D1908EEE025B0538643BD73B99197447;3671.
+[3])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+ (./alumbreras_cv_pro.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package rerunfilecheck Info: File `alumbreras_cv_pro.out' has not changed.
+(rerunfilecheck)             Checksum: 766D529E6DE2F82CBBA32EA050B732CF;2067.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20147 strings out of 494902
- 326585 string characters out of 6177496
- 416431 words of memory out of 5000000
- 22925 multiletter control sequences out of 15000+600000
- 74487 words of font info for 90 fonts, out of 8000000 for 9000
+ 20102 strings out of 494902
+ 325998 string characters out of 6177496
+ 417436 words of memory out of 5000000
+ 22912 multiletter control sequences out of 15000+600000
+ 70977 words of font info for 82 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 57i,12n,45p,10395b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/home/alumbreras/texmf/fonts/enc/dvips/fontawesome/fontaw
-esomethree.enc}{/home/alumbreras/texmf/fonts/enc/dvips/fontawesome/fontawesomet
-wo.enc}</home/alumbreras/texmf/fonts/type1/public/fontawesome/FontAwesome.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmt
-t10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb>
-Output written on alumbreras_cv_CNRS.pdf (7 pages, 233116 bytes).
+ 55i,12n,45p,10394b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/home/alumbreras/texmf/fonts/
+enc/dvips/fontawesome/fontawesomethree.enc}{/home/alumbreras/texmf/fonts/enc/dv
+ips/fontawesome/fontawesometwo.enc}</home/alumbreras/texmf/fonts/type1/public/f
+ontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmtti10.pfb>
+Output written on alumbreras_cv_pro.pdf (4 pages, 209179 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 21177 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 20593 words of extra memory for PDF output out of 20736 (max. 10000000)
 
