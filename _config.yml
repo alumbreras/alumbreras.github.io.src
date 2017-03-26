@@ -1,0 +1,34 @@
+# github uses safe = true, but safe = false allows using the jekyll-scholar plugin in local machine
+safe: false 
+encoding: utf-8
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  #auto_ids: true
+  syntax_highlighter: rouge
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+# Outputting
+exclude: [
+  'cibuild',
+  'Gemfile',
+  'Gemfile.lock',
+  'package.json',
+  'README.md',
+  'vendor']
+
+timezone: Europe/Berlin
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: '' # the base hostname & protocol for your site
+title: 'Alberto Lumbreras'
+author: ''
+
+
+permalink: /posts/:title.html

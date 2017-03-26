@@ -1,9 +1,10 @@
 ---
+layout: post
 title: Revoluciones científicas y revoluciones políticas
 tags: philosophy
 ---
 <center>
-<img alt="kuhn" src="/images/kuhn.jpg" width="240" height="197" />
+<img alt="kuhn" src="/img/kuhn.jpg" width="240" height="197" />
 </center>
 <br />
 

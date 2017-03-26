@@ -42,6 +42,12 @@ pre code {
 }
 
 
+// prevents the navbar from shifting horizontally when scroll appears
+//html { 
+//  overflow-y: scroll; 
+//  overflow-x: scroll;
+//}
+
 h2,.h2 {
 	font-size:120%;
 	line-height:1.5em;
@@ -71,3 +77,19 @@ h6,.h6 {
 	font-size:100%;
 	font-weight:bold;
 }
+
+
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+  ul.posts li {
+    line-height: 1.75em;
+  }
+
+  ul.posts span {
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: PCA and Bayesian PCA
 tags: PCA, bayesian
 ---

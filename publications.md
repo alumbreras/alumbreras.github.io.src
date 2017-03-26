@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Publications
 ---
 
@@ -7,7 +8,7 @@ title: Publications
 [Non-parametric clustering over user features and latent behavioral functions with dual-view mixture models](https://github.com/alumbreras/Dual-DPGMM/blob/master/doc/ComputStat%20submission/dualview_clustering_camera.pdf)  
 Lumbreras A., Guégan M., Velcin J., Jouve B. (2016)  
 Computational Statistics  
-[[code](https://github.com/alumbreras/Dual-DPGMM)]  
+[[code](https://github.com/alumbreras/Dual-DPGMM)]
 [[printed version](http://link.springer.com/article/10.1007/s00180-016-0668-0)]
 
 

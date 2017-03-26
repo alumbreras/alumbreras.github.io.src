@@ -1,30 +1,46 @@
 ---
+layout: post
 title: Preference elicitation with Metropolis-Hastings
 tags: tutorials, bayesian statistics, bayesian inference, metropolis-hastings
 ---
 (draft)
 
 ## Theory 
-Imagine we observe a set of pairwise preferences from a user. We denote this set by $\mathcal{D} = \left \{ \mathbf{x}_i \succ \mathbf{x}_j \right \}$ where $1 \leq i \leq m$ and $1 \leq j \leq m$. Let us assume that the pairwise preferences depend on a latent utility $f_i$ given to every item $i \in X$ so that item $i$ is prefered over item $j$ iff utility of $i$ is bigger than utility of $j$.
+Imagine we observe a set of pairwise preferences from a user. 
+We denote this set by $$\mathcal{D} = \left \{ \mathbf{x}_i \succ \mathbf{x}_j \right \}$$ 
+where $$1 \leq i \leq m$$ and $$1 \leq j \leq m$$ . Let us assume that the 
+pairwise preferences depend on a latent utility $$f_i$$  given to every 
+item $$i \in X$$  so that item $$i$$  is prefered over item $$j$$  iff utility 
+of $$i$$  is bigger than utility of $$j$$ .
 
-We want to know the posterior distribution of $\mathbf{f}$, that is, the probability distribution of the utilities $\mathbf{f}$ after observing the data. For this we need a prior distribution over $\mathbf{f}$ and a likelihood function of the data given the utilities $\mathbf{f}$.
+We want to know the posterior distribution of $$\mathbf{f}$$ , that is, 
+the probability distribution of the utilities $$\mathbf{f}$$  after observing 
+the data. For this we need a prior distribution over $$\mathbf{f}$$  and a 
+likelihood function of the data given the utilities $$\mathbf{f}$$ .
 
 ### Likelihood  
 
-If we knew these utility function, and assuming some noise $\lambda$ over the observed choices, we could model the likelihood of a pairwise choice as:
+If we knew these utility function, and assuming some noise $$\lambda$$  over 
+the observed choices, we could model the likelihood of a pairwise choice as:
+
 $$
 p(i \succ j | f) = \Phi(\frac{f_i - f_j}{\lambda})
 $$
-where $\Phi$ is the probit function.
+
+where $$\Phi$$  is the probit function.
 
 ### Prior
 
-We put a Gaussian prior over the utilities so that the $m$ utilities are drawn from the same Gaussian distribution. 
+We put a Gaussian prior over the utilities so that the $$m$$  utilities 
+are drawn from the same Gaussian distribution. 
+
 $$
 p(f) = \mathcal{N}(f | 0, \mathbf{K})
 $$
 
-Note that this is actually a Gaussian Process, since if we take any subset of utilities $f_s$:
+Note that this is actually a Gaussian Process, since if we take any 
+subset of utilities $$f_s$$ :
+
 $$
 p(f_s) = \mathcal{N}(f_s | 0, \mathbf{K_s})
 $$
@@ -32,21 +48,27 @@ $$
 ### Posterior   
 
 The posterior distribution is given by Bayes rule:
+
 $$
 p(f | \mathbf{X}) = \frac{\prod_{(i,j) \in \mathcal{D}}  p(i \succ j | f) p(f | 0, \mathbf{K})}
 {\int_f \prod_{(i,j) \in \mathcal{D}}  p(i \succ j | f) p(f | 0, \mathbf{K})}
 $$
-but we cannot solve the integral in the denominator. Instead, we will take samples from:
+
+but we cannot solve the integral in the denominator. Instead, we will 
+take samples from:
+
 $$
 p(f | \mathbf{X}) \propto \prod_{(i,j) \in \mathcal{D}}  p(i \succ j | f) p(f | 0, \mathbf{K})
 $$
-and we will do it with the very simple [Metropolis-Hastings](http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm).
+
+and we will do it with the very simple 
+[Metropolis-Hastings](http://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm).
 
 ## Practice with R  
 
 First, let us generate some toy data:
 
-```r
+{% highlight r %}
 ############################
 # Data (manual generation)
 ############################
@@ -81,17 +103,20 @@ for(i in 1:npairs){
     pairs[i,] <- rev(pairs[i,])
   }
 }
-```
+{% endhighlight %}
 
-Let us design the covariance matrix $\mathbf{K}$ in such a way that covariance between items is proportional to items similarity. We need a similarity metric such as:
+Let us design the covariance matrix $$\mathbf{K}$$  in such a way that 
+covariance between items is proportional to items similarity. We need a 
+similarity metric such as:
 
-```r
+{% highlight r %}
 # kernel function to build the covariance matrix of the prior
 kernel <- function(x1,x2) {exp(-(x1-x2)^2)}
-```
+{% endhighlight %}
 
 And now we build the covariance:
-```r
+
+{% highlight r %}
 # Covariance matrix
 Sigma <- matrix(0, L, L)
 for(i in 1:L){
@@ -103,21 +128,23 @@ for(i in 1:L){
 
 # Plot covariance matrix
 corrplot(Sigma, method="shade")
-```
-![](../images/2015-04-26-Sigma.png)
+{% endhighlight %}
+
+![](/img/2015-04-26-Sigma.png)
 
 Now we can build our prior:
-```r
+
+{% highlight r %}
 prior <- function(f) { dmvnorm(f, rep(0,L), Sigma, log=TRUE) }
-```
+{% endhighlight %}
 
 The likelihood is:
-```r
+{% highlight r %}
 likelihood <- function(x1, x2, f) { log(pnorm((f[x1]-f[x2])/lambda)) }
-```
+{% endhighlight %}
 
 The posterior is proportional the the likelihood times the prior:
-```r
+{% highlight r %}
 posterior <- function(pairs, f){
   npairs <- dim(pairs)[1]
   like <- 0
@@ -129,11 +156,12 @@ posterior <- function(pairs, f){
   like <- like + prior(f)
   return(like)
 }
-```
+{% endhighlight %}
+
 ####
 A Metropolis-Hasting implementation with its  proposal distribution:
 
-```r
+{% highlight r %}
 # Proposal distribution
 step <- 0.0001 # tune it so that around 20% of samples are accepted
 rproposal <- function(x){x + mvrnorm(1, rep(0,L), diag(L)*step)}
@@ -155,12 +183,13 @@ metropolis <- function(nsamples, pairs){
   }
   return(chain)
 }
-```
+{% endhighlight %}
 
 
-And finally we use our Metropolis-Hastings to infer the utility function of the items based on the observed choices:
+And finally we use our Metropolis-Hastings to infer the utility function 
+of the items based on the observed choices:
 
-```r
+{% highlight r %}
 chain <- metropolis(10000, pairs)
 
 burnIn <- dim(chain)[1]*0.5
@@ -183,5 +212,6 @@ qplot(x, means) +
   geom_errorbar(aes(ymin=L, ymax=U)) + 
   xlab("items") + ylab("f") +  scale_x_discrete(limits=c(1,10)) +
   ggtitle("Posterior of the utility function (credible intervals at 50%)")
-```
-<img src="../images/2015-04-26-posterior.png" width="800px">
+{% endhighlight %}
+
+<img src="/img/2015-04-26-posterior.png" width="800px">

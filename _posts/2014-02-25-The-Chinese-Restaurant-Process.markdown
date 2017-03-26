@@ -1,9 +1,14 @@
 ---
+layout: post
 title: The Chinese Restaurant Process
 tags: tutorials
 ---
 
-The [Chinese Restaurant Process][] is a prior for the likelihoods of clustered data. Let $\mathbf{z}$ be the cluster assignments of users. Let  $K$ be the number of clusters and let $\boldsymbol{\pi}$ be a vector of size $K$, indicating the probability of being assigned to cluster $k$. If we put a Dirichlet prior on $\boldsymbol{\pi}$ , we have:
+The [Chinese Restaurant Process][] is a prior for the likelihoods of clustered data. 
+Let $$\mathbf{z}$$ be the cluster assignments of users. 
+Let  $$K$$ be the number of clusters and let $$\boldsymbol{\pi}$$ be a vector 
+of size $$K$$, indicating the probability of being assigned to cluster $$k$$. 
+If we put a Dirichlet prior on $$\boldsymbol{\pi}$$ , we have:
 
 $$
 \begin{align}
@@ -12,7 +17,9 @@ $$
 \end{align}
 $$
 
-Assuming that $\alpha$ is a fixed parameter, the joint probability of $\mathbf{z}$ and $\boldsymbol{\pi}$ is:
+Assuming that $$\alpha$$ is a fixed parameter, the joint probability of 
+$$\mathbf{z}$$ and $$\boldsymbol{\pi}$$ is:
+
 $$
 \begin{align}
 p(\mathbf{z}, \boldsymbol{\pi}) = 
@@ -20,7 +27,7 @@ p(\mathbf{z} | \boldsymbol{\pi})p(\boldsymbol{\pi} | \alpha)
 \end{align}
 $$
 
-If we integrate out $\mathbf{\pi}$, we get the marginal probability of $\mathbf{z}$:
+If we integrate out $$\mathbf{\pi}$$, we get the marginal probability of $$\mathbf{z}$$:
 
 $$
 \begin{align}
@@ -35,7 +42,9 @@ p(\mathbf{z}) &=
 \end{align}
 $$
 
-Renaming $\alpha+n_i$ as $\alpha_i'$, multiplying and dividing by $B(\boldsymbol{\alpha'})$, and rearranging the elements so that it is visually clear, we get:
+Renaming $$\alpha+n_i$$ as $$\alpha_i'$$, multiplying and dividing by 
+$$B(\boldsymbol{\alpha'})$$, and rearranging the elements so that it is 
+visually clear, we get:
 
 $$
 \begin{align}
@@ -71,7 +80,10 @@ p(\mathbf{z})=
 \end{align}
 $$
 
-Note that the presence of the counts $n_i$ makes it impossible to factorize $p(\mathbf{z})$ into the product of the individual $z$. However, we can derive the conditional probability of one $z_u$ given all the other assignments:
+Note that the presence of the counts $$n_i$$ makes it impossible to factorize 
+$$p(\mathbf{z})$$ into the product of the individual $$z$$. 
+However, we can derive the conditional probability of one $$z_u$$ given 
+all the other assignments:
 
 $$
 \begin{align}
@@ -81,7 +93,12 @@ p(z_u = j| \mathbf{z_{-u}}) =
 \end{align}
 $$
 
-To compute the denominator we assume cluster assignments are exchangeable, that is, the joint distribution $p(\mathbf{z})$ is the same regardless the order in which clusters are assigned. This allows us to assume that $z_u$ is the last assignment, therefore obtaining $p(\mathbf{z_{-u}})$ by considering how was the equation $p(\mathbf{z})$ before $z_u$ was assigned to cluster $j$. 
+To compute the denominator we assume cluster assignments are exchangeable, 
+that is, the joint distribution $$p(\mathbf{z})$$ is the same regardless 
+the order in which clusters are assigned. This allows us to assume that 
+$$z_u$$ is the last assignment, therefore obtaining $$p(\mathbf{z_{-u}})$$ 
+by considering how was the equation $$p(\mathbf{z})$$ before $$z_u$$ was 
+assigned to cluster $$j$$. 
 
 $$
 \begin{align}
@@ -105,7 +122,7 @@ p(\mathbf{z_{-u}}) =
 \end{align}
 $$
 
-Plugging $p(\mathbf{z}_{-u})$ and $p(\mathbf{z})$ into $p(z_u | \mathbf{z}_{-u})$, we get:
+Plugging $$p(\mathbf{z}_{-u})$$ and $$p(\mathbf{z})$$ into $$p(z_u \vert \mathbf{z}_{-u})$$, we get:
 
 $$
 \begin{align}
@@ -164,7 +181,7 @@ p(z_i = j| \mathbf{z_{-u}})
 \end{align}
 $$
 
-Assuming that all $\alpha_i$ have the same value $\alpha$, and since the sum of all $n_i$ is $U$:
+Assuming that all $$\alpha_i$$ have the same value $$\alpha$$, and since the sum of all $$n_i$$ is $$U$$:
 
 $$
 \begin{align}
@@ -188,7 +205,7 @@ K\alpha_j +U -1
 \end{align}
 $$
 
-and finally exploiting the fact that $a \Gamma(a) = \Gamma(a+1)$:
+and finally exploiting the fact that $$a \Gamma(a) = \Gamma(a+1)$$:
 
 $$
 \begin{align}
@@ -200,7 +217,7 @@ p(z_i = j| \mathbf{z_{-u}})
 \end{align}
 $$
 
-we can reparametrize $\alpha$ as $\alpha/K$. Then we have the standard result:
+we can reparametrize $$\alpha$$ as $$\alpha/K$$. Then we have the standard result:
 
 $$
 \begin{align}
@@ -212,9 +229,10 @@ p(z_i = j| \mathbf{z_{-u}})
 \end{align}
 $$
 
-where $n_j$ is the number of users in cluster $j$ before the assignment of $z_u$.
+where $$n_j$$ is the number of users in cluster $$j$$ before the assignment of $$z_u$$.
 
-The Chinese Restaurant Process is the consequence of considering $K \rightarrow \infty$. For clusters where $n_j>0$, we have:
+The Chinese Restaurant Process is the consequence of considering $$K \rightarrow \infty$$. 
+For clusters where $$n_j>0$$, we have:
 
 $$
 \begin{align}
@@ -226,7 +244,7 @@ p(z_i = j| \mathbf{z_{-u}})
 \end{align}
 $$
 
-and the probability of assigning $z_u$ to any of the (infinite) empty clusters is: 
+and the probability of assigning $$z_u$$ to any of the (infinite) empty clusters is: 
 
 $$
 \begin{align}
